@@ -19,7 +19,7 @@ return [
             "security" => true,
             "auth" => true,
             "username" => "apikey",
-            "password" => "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"
+            "password" => ""
         ]
     ],
     "routes" => [
