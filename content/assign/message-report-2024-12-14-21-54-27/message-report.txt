@@ -1,0 +1,254 @@
+Title: Message report 2024-12-14 21:54:27
+
+----
+
+Total-sent: 29
+
+----
+
+Total-failed: 0
+
+----
+
+Notices:
+
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://D1gDwabx
+  notice: >
+    Assignment email sent to
+    hilado03@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://lnsT4hOy
+  notice: >
+    Assignment email sent to
+    mlookaml96@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://0o7RxEaE
+  notice: >
+    Assignment email sent to
+    tiferetsimonbetz@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://UeGiWTd6
+  notice: >
+    Assignment email sent to
+    avalynsenter@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://D8Zazpl7
+  notice: >
+    Assignment email sent to
+    talaawawdi@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://dO3ywXPP
+  notice: >
+    Assignment email sent to
+    tamarblu102@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://e1DqsnrW
+  notice: >
+    Assignment email sent to
+    tultul11011@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://e5ogHVx3
+  notice: >
+    Assignment email sent to
+    zahalkalama@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://gCqkSwZc
+  notice: >
+    Assignment email sent to
+    nsnika4@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://gl1bnwYw
+  notice: >
+    Assignment email sent to
+    carmelaranyi@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://hdJuDq75
+  notice: >
+    Assignment email sent to
+    telandau@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://i3UP4kvj
+  notice: >
+    Assignment email sent to
+    timgoldberg0@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://j8pqBsor
+  notice: >
+    Assignment email sent to
+    liakrasno30@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://lOi8e3j4
+  notice: >
+    Assignment email sent to
+    doriaharoni2123@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://nZkij9tl
+  notice: >
+    Assignment email sent to
+    ari.rafael01@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://oQVRYzbx
+  notice: >
+    Assignment email sent to
+    lotem.laxer@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://oRIgkebN
+  notice: >
+    Assignment email sent to
+    culangsylvie@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://pX9hkENX
+  notice: >
+    Assignment email sent to
+    uriel4500@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://qQ3UQkmP
+  notice: >
+    Assignment email sent to
+    moriya.avraham@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://tObmHF93
+  notice: >
+    Assignment email sent to
+    idohadas13@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://vCtHxkWa
+  notice: >
+    Assignment email sent to
+    mikikminsky@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://vJBq28qz
+  notice: >
+    Assignment email sent to
+    roni9904@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://vrIg13cN
+  notice: >
+    Assignment email sent to
+    maayannizry@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://wkKeW1Wu
+  notice: >
+    Assignment email sent to
+    yuvaleilook@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://wpdpyVML
+  notice: >
+    Assignment email sent to
+    omersokol410@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://xXBTBX9I
+  notice: >
+    Assignment email sent to
+    omerbarel2002@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://xwO7Ib0k
+  notice: >
+    Assignment email sent to
+    shirabarnahum@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://y4RMze77
+  notice: >
+    Assignment email sent to
+    noamedan@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://ycVEPw5y
+  notice: >
+    Assignment email sent to
+    hymanorly@gmail.com successfully!
+
+----
+
+Alerts: 
+
+----
+
+Uuid: yUP5kZkpd94K1SlS

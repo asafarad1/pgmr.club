@@ -1,0 +1,86 @@
+title: Site
+
+tabs:
+  manage:
+    sections:
+      stats:
+        type: stats
+        label: Workshop statistics
+        reports:
+          - label: Total workshops
+            value: "{{ site.getWorkshops.count }}"
+          - label: Total seats
+            value: "{{ site.totalSeats }}"
+          - label: Total selected
+            value: "{{ site.totalSelected }}"
+          - label: Total participants
+            value: "{{ site.totalParticipants }}"
+          - label: Total unassigned
+            value: "{{ site.totalUnassigned }}"
+      workshops:
+        type: pages
+        template: workshop
+        limit: 100
+        layout: table
+        sortBy: title asc
+        columns:
+          teacher: true
+          participants:
+            type: text
+            value: "{{ page.participants.toUsers.count }}"
+          assistant: true
+          available:
+            label: Available seats
+            type: text
+            value: "{{ page.getAvailability }}"
+      more:
+        type: pages
+        templatesIgnore:
+          - error
+          - workshop
+          - login
+  emails:
+    sections:
+      emails:
+        type: fields
+        fields:
+          assignment_email:
+            label: Assignment email template
+            type: writer
+            help: "Placeholders: `{name}` `{workshop_name}` `{workshop_requirements}`"
+          assistant_email:
+            label: Assignment email template for assisting students
+            type: writer
+            help: "Placeholders: `{name}` `{workshop_name}` `{workshop_requirements}` `{google_drive}`"
+          teacher_email:
+            label: Workshop leader email template
+            type: writer
+            help: "Placeholders: `{name}` `{workshop_name}` `{assistant_details}` `{participants_list}` `{google_drive}`"
+          feedback_email:
+            label: Feedback email template
+            type: writer
+            help: "Placeholders: `{name}`"
+  settings:
+    sections:
+      settings:
+        type: fields
+        fields:
+          login_redirect:
+            label: Redirect to this page after student login
+            type: pages
+            multiple: false
+          login_redirect_teacher:
+            label: Redirect to this page after teacher login
+            type: pages
+            multiple: false
+          limit:
+            label: Maximum number of students per workshop
+            type: number
+          deadline:
+            label: Deadline for students to make choices
+            type: date
+            time: true
+          feedback_deadline:
+            label: Deadline for students to give feedback
+            type: date
+            time: true

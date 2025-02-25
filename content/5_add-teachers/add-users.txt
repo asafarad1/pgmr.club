@@ -1,0 +1,27 @@
+Title: הוספת מורים
+
+----
+
+Csv: - file://yk0lvzhb7zkau1cX
+
+----
+
+Role: teacher
+
+----
+
+Mapping:
+
+- 
+  name: מרצים
+  field: name
+- 
+  name: טלפון
+  field: tel
+- 
+  name: מייל
+  field: email
+
+----
+
+Uuid: Tsi70bszc9kF0AE5

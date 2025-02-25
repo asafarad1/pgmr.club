@@ -1,0 +1,51 @@
+title: Assignment report
+
+options:
+  preview: false
+
+sections:
+  stats:
+    reports:
+      - label: "Received first choice"
+        value: "{{ page.total_first }}"
+      - label: "Received second choice"
+        value: "{{ page.total_second }}"
+      - label: "Received third choice"
+        value: "{{ page.total_third }}"
+      - label: "Received fourth choice"
+        value: "{{ page.total_fourth }}"
+      - label: "Received random choice"
+        value: "{{ page.total_random }}"
+  report:
+    type: fields
+    fields:
+      report:
+        type: structure
+        fields:
+          workshop:
+            type: pages
+            multiple: false
+          total:
+            type: number
+          year_a:
+            type: number
+          year_b:
+            type: number
+          year_c:
+            type: number
+          year_d:
+            type: number
+          male:
+            type: number
+          female:
+            type: number
+          average:
+            type: number
+      randoms:
+        type: users
+        label: Students who received a random course
+        info: "{{ user.year }}"
+      unassigned:
+        type: users
+        label: Unassigned students
+        info: "{{ user.year }}"

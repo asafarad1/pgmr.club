@@ -1,0 +1,104 @@
+title: Workshop
+
+tabs:
+  manage:
+    columns:
+      column1:
+        width: 1/2
+        sections:
+          column1:
+            type: fields
+            fields:
+              teacher:
+                label: Name of teacher(s)
+                type: writer
+              multiple:
+                label: Is there more than one teacher?
+                type: toggle
+              type:
+                label: Workshop type
+                type: select
+                options:
+                  - lecture
+                  - workshop
+                  - panel
+                  - 
+              limit:
+                label: Maximum number of students
+                type: number
+                placeholder: "{{ site.limit }}"
+              about:
+                label: About the workshop
+                type: writer
+              assistant:
+                label: Assistant student (from participants)
+                type: users
+                multiple: false
+                query: page.participants.toUsers
+              participants:
+                label: Participants
+                type: users
+                info: "{{ user.year }}"
+              reset_participants:
+                type: janitor
+                label: Reset participants
+                command: reset-participants
+                width: 1/2
+              send_assignments:
+                type: janitor
+                label: Send assignments
+                command: message-assignments
+                width: 1/2
+              send_teachers:
+                type: janitor
+                label: Message workshop leaders
+                command: message-teachers
+                width: 1/2
+              send_feedbacks:
+                type: janitor
+                label: Send feedback requests
+                command: message-feedbacks
+                width: 1/2
+      column2:
+        width: 1/2
+        sections:
+          feedback:
+            type: stats
+            reports:
+              - link: "{{ page.url }}/feedback:true"
+                label: משובים
+                value: "{{ page.getFeedbackItems.count }} / {{ page.participants.toUsers.count }}"
+          column2:
+            type: fields
+            fields:
+              teachers_users:
+                label: Teachers' user accounts
+                type: users
+                query: kirby.users.filterBy( 'role', 'teacher' )
+              drive_link:
+                label: Link to workshop Google Drive
+                type: link
+              second_drive_link:
+                label: Link to another workshop Google Drive (if needed)
+                type: link
+              requirements:
+                label: Special requirements
+                type: writer
+              rooms:
+                label: Rooms
+                type: structure
+                fields:
+                  day:
+                    type: select
+                    options:
+                      - "שני 23.12"
+                      - "שלישי 24.12"
+                      - "רביעי 25.12"
+                  room:
+                    type: text
+              schedule:
+                label: Workshop schedule
+                type: writer
+              bio:
+                label: About the teacher(s)
+                type: writer

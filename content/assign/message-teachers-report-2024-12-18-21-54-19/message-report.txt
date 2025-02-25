@@ -1,0 +1,87 @@
+Title: Message Teachers report 2024-12-18 21:54:19
+
+----
+
+Total-sent: 8
+
+----
+
+Total-failed: 0
+
+----
+
+Notices:
+
+- 
+  workshop:
+    - page://zAlf4wxhajKMbUm4
+  user:
+    - user://UlgfakG7
+  notice: >
+    Assignment email sent to
+    engelmayer7@gmail.com successfully!
+- 
+  workshop:
+    - page://zAlf4wxhajKMbUm4
+  user:
+    - user://G2TzjeZd
+  notice: >
+    Assignment email sent to
+    sharontgr@gmail.com successfully!
+- 
+  workshop:
+    - page://A4gXZNBlZUlwOpK1
+  user:
+    - user://tMOlbwZQ
+  notice: >
+    Assignment email sent to
+    shimchick@gmail.com successfully!
+- 
+  workshop:
+    - page://A4gXZNBlZUlwOpK1
+  user:
+    - user://H8GzyPJJ
+  notice: >
+    Assignment email sent to
+    gastonickowicz@googlemail.com
+    successfully!
+- 
+  workshop:
+    - page://A4gXZNBlZUlwOpK1
+  user:
+    - user://SKNkKU6U
+  notice: >
+    Assignment email sent to
+    eitan841@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://aCk0TnLT
+  notice: >
+    Assignment email sent to
+    chenchanges@gmail.com successfully!
+- 
+  workshop:
+    - page://McFp6uZvR5mkSilC
+  user:
+    - user://EDUBhr6X
+  notice: >
+    Assignment email sent to
+    ddanielleelias@gmail.com successfully!
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  user:
+    - user://3KTkesx0
+  notice: >
+    Assignment email sent to
+    arielasseo@gmail.com successfully!
+
+----
+
+Alerts: 
+
+----
+
+Uuid: rAyU62zdnK81Ft9k

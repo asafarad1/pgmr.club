@@ -1,0 +1,87 @@
+Title: גיפים של המאה ה-19
+
+----
+
+Teacher: <p>חן וינר</p>
+
+----
+
+Multiple: false
+
+----
+
+Type: craft
+
+----
+
+Limit: 
+
+----
+
+Duration: 
+
+----
+
+About: <p>בסדנה נצלול לצורתה הראשונית ביותר של אנימציה מצוירת דרך כלי הפנקיסטיסקופ המופלא (Phenakistiscope) - המכשיר הראשון שיצר אשלייה של דימוי בתנועה. בסדנה נחקור עקרונות אנימטיביים ונגלה איך לייצר תנועה כובשת באמצעים נגישים, ללא ידע קודם באנימציה.</p>
+
+----
+
+Assistant: - user://YWoBmxFO
+
+----
+
+Participants:
+
+- user://mooVKLbY
+- user://kw1HX3sv
+- user://XEA7RlzL
+- user://YWoBmxFO
+- user://xeOdUuvD
+- user://c1ccG9iz
+- user://c9mh6HnH
+- user://X78iYPsH
+- user://kfGExjml
+- user://teKoo97J
+- user://wAsOZ0ik
+- user://piqTh6xj
+- user://1Uc6ujij
+- user://rKDV09Ci
+- user://ZblMrYtN
+- user://QIVBTNh8
+- user://EjxfRptn
+- user://OXrG0Knu
+- user://3Ox9ahs3
+- user://VPxBDzCY
+- user://P9lmEQMY
+
+----
+
+Teachers-users: - user://aCk0TnLT
+
+----
+
+Drive-link: https://example2.com/
+
+----
+
+Second-drive-link: 
+
+----
+
+Requirements: <p>יום 01:</p><p>סקצ׳בוק/ערימת ניירות בעובי 120 גרם<br>עפרון, מחק, עפרונות צבעוניים<br>שולחן אור/אייפד<br>בריסטול לבן בעובי 400 גרם</p><p>יום 02:</p><p>ניירות בעובי 400 גרם<br>חומרי ציור לבחירתכם: דיו, עפרונות צבעוניים, צבעי מים, חותמות, ניירות צבעוניים וכדומה<br>בריסטול לבן בעובי 400 גרם,<br>מחשב</p><p>סורק שיימצא בכיתה</p>
+
+----
+
+Rooms: 
+
+----
+
+Schedule: <p>יום 01: חלק א׳: הרצאה: אנימציה ללא מצלמה, היכרות טכנית עם אנימציה קלאסית, תרגיל flip book חלק ב: מצגת: מה זה סטוריבורד, בחירת טקסט ויצירת סטוריבורד לאנימציית פנקיטוסקופ יום 02: חלק א׳ - המשך עבודה על סטוריבורד + יצירת line animation חלק ב׳ - צביעה ודיגיטציה + הקרנה משותפת ודיון</p>
+
+----
+
+Bio: <p>חן וינר היא מאיירת ואנימטורית, בעלת תואר ראשון מהמחלקה לתקשורת חזותית, בצלאל (2015), ותואר שני מה-Royal College of Art בלונדון. עושה סרטים קצרים, הדפסים, איורים וכמובן גיפים.</p>
+
+----
+
+Uuid: SjPGRU9bkg1hwEnt

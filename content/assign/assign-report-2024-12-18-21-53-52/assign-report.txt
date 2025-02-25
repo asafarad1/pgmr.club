@@ -1,0 +1,540 @@
+Title: Assignment report 2024-12-18 21:53
+
+----
+
+Total-first: 57
+
+----
+
+Total-second: 4
+
+----
+
+Total-third: 2
+
+----
+
+Total-fourth: 0
+
+----
+
+Total-random: 42
+
+----
+
+Randoms:
+
+- user://uwkNCBWR
+- user://XOfm9iNJ
+- user://iF0ghG2R
+- user://OOJyLZ1L
+- user://cVE5HlCf
+- user://GaVTaVJn
+- user://YT5QGueP
+- user://Jbxbjn99
+- user://v2GnXfiL
+- user://68K9rZRY
+- user://zQEEOOJl
+- user://j6QNnpYg
+- user://ko4HuHGm
+- user://KlZrKonf
+- user://WXLR0EDa
+- user://9RbBuKs8
+- user://LpA9AVN4
+- user://0BPKKiu0
+- user://XmkHY4fe
+- user://lPljaIUz
+- user://z4Tz8oDa
+- user://plDN7CUP
+- user://3G63UqIY
+- user://MTfXzOPE
+- user://W2HMd4Fc
+- user://D9a8lgmC
+- user://LoisEiN7
+- user://GYnsUBfj
+- user://ddnSzSRv
+- user://MZqKEzGZ
+- user://pysyHWpf
+- user://BHTDz8w6
+- user://Wty6XhbC
+- user://M5WUrj5p
+- user://JGFGWWOM
+- user://J1ZSY8bG
+- user://tVKOz2ia
+- user://QNAiC9Ck
+- user://Yo95KYb6
+- user://HVgPa9gh
+- user://NgkPBt9Q
+- user://l1UCBdmI
+
+----
+
+Unassigned:
+
+- user://3Zu8bt5B
+- user://4fCNWAY8
+- user://1KaNTk9e
+- user://D2pHH8sK
+- user://K5y69cyh
+- user://Z0fN40K2
+- user://G73xFdQo
+- user://8q0JWTQM
+- user://8jyzVPTI
+- user://4SYGv7AV
+- user://i3jSMxIf
+- user://nms5RobK
+- user://Ig6pNlH6
+- user://yFBUmEYp
+- user://RcNQVvBF
+- user://TTz92hsb
+- user://JzHPAJgB
+- user://cP1EYMmp
+- user://Y2SIlNVx
+- user://bzzq8wBq
+- user://7KPD4byd
+- user://D7lYZkLT
+- user://PdysIjd6
+- user://NKLOGMqt
+- user://wZiy9BLn
+- user://ckMoYQWu
+- user://makYAywq
+- user://zTJhubnL
+- user://xHLabvW8
+- user://6rcd5b4q
+- user://aNwIIBCh
+- user://ui8ctIES
+- user://p2tXvxsg
+- user://MVI7JFMF
+- user://i7bifQHk
+- user://GGsRAeAZ
+- user://nFqeq0cI
+- user://O14fKGJZ
+- user://2l95MmiY
+- user://MHJtLmuS
+- user://jHiiMiAj
+- user://DptvrPP5
+- user://YLQ3MVQX
+- user://H5ufchV7
+- user://5OkO05Gb
+- user://zA9ao2Ah
+- user://zRZBXQFd
+- user://nbRDjvPG
+- user://YQq0QN2j
+- user://wK7Ys0GJ
+- user://KLqn6JVL
+- user://YFZdjrix
+- user://uT3ZATyM
+- user://Tcz4aIBm
+- user://4kRB0gep
+- user://O3UQEvfj
+- user://GgRJb15T
+- user://swqWnvSg
+- user://7YnuqiOj
+- user://j4vR7dq3
+- user://Uzsjip4W
+- user://XoUphpHH
+- user://FRsgxAY1
+- user://EmJIzH8y
+- user://epKeR5Pt
+- user://RKDOPhYc
+- user://osdDa6WN
+- user://u3ktnrLS
+- user://npJmyZKu
+- user://eJXgv1Im
+- user://QvA8mV3K
+- user://Nyb9Yely
+- user://OhEd1vIf
+- user://sTZLmLeH
+- user://m4ZjLXLo
+- user://7Q8ooJQq
+- user://o0t8K7Vy
+- user://AJtvwdAN
+- user://7dziYxN6
+- user://y5B81I6T
+- user://AgKnl9Qg
+- user://kZ4dzh4B
+- user://knps9N7d
+- user://3Gy51MVm
+- user://6SAOCfIk
+- user://qXJkdKYr
+- user://Nh2RlniW
+- user://6dJJVatm
+- user://PqSFfQsZ
+- user://rn4VKbbg
+- user://RMRc4Qyz
+- user://XIJXMuyx
+- user://JCNfP4sO
+- user://HCdI0SnL
+- user://62xGEr6r
+- user://MUTwnvwF
+- user://2RnA9VXS
+- user://rSs8GnWB
+- user://9tYX7MpP
+- user://rbk0bJfY
+- user://Vyb3arng
+- user://VB3c8Kd3
+- user://jgH9CklL
+- user://44KKMK4Z
+- user://R2YiFPDu
+- user://Ata9RF29
+- user://fZhY6hMP
+- user://8aEh2iBx
+- user://6gxRT0ac
+- user://kZgxFDnM
+- user://v9LIrvJG
+- user://iUSk7xHd
+- user://LNE9Mktt
+- user://EJ7UB99K
+- user://GYtlWGiq
+- user://nHHfttFv
+- user://9KG6jEpo
+- user://LqcTgFkV
+- user://xhXEHs5Y
+- user://DLg6kuvz
+- user://OVSh7TID
+- user://ls4T3aYV
+- user://pCGMEJZ0
+- user://4CoWrAjG
+- user://v5pVCiFE
+- user://EDoth7T6
+- user://lRBoMKkv
+- user://EKKUidLr
+- user://ytCqQKmg
+- user://inBTLKP8
+- user://mwOkp3eZ
+- user://qZoFdpq7
+- user://PQBGHvBY
+- user://QgMbjxiS
+- user://4BlxN25f
+- user://x9v07jAk
+- user://gxAVK0fP
+- user://AOM9o9dM
+- user://RnIgoyuc
+- user://U5FANOh8
+- user://HY7vPklz
+- user://EnFBBslN
+- user://ofZNAi0W
+- user://q1GNa0wg
+- user://5Ajv2AKC
+- user://EKE3t6Yv
+- user://6Wpjkgku
+- user://Q8WtM3Ly
+- user://Dw1YDnpN
+- user://mTS8gERu
+- user://gkBdBG0r
+- user://jBe5YwA2
+- user://hWHwr9ye
+- user://OHWvvdsa
+- user://M3o22AMV
+- user://42Une2j7
+- user://yO218U9C
+- user://Ns40p7iI
+- user://e9yAbwXE
+- user://yllJ5Ix3
+- user://IqjERMPq
+- user://mrQgmEPh
+- user://No97IfPu
+- user://ZlAR9KRJ
+- user://76wvaTzZ
+- user://4y4YiVMs
+- user://iRHdE90B
+- user://VY32CUhB
+- user://zWSZA6JU
+- user://MIhsityG
+- user://Ym04F3RT
+- user://0IpfjTcd
+- user://VkJ7srGH
+- user://O0Gg2XGL
+- user://OkcC0SCf
+- user://HE7ImlCG
+- user://dWl6h7En
+- user://D6bMi4X8
+- user://Bj9xfkRQ
+- user://6WQXbiFi
+- user://ouan4RaK
+- user://olpKNTTM
+- user://2DheEiyf
+- user://TAi0z4wa
+- user://cIftQFh7
+- user://X8sHxHgO
+- user://Fc6kFg2U
+- user://nTStMvts
+- user://GKYeQm8R
+- user://dGV8gUgL
+- user://xXbswdzI
+- user://ARmTtCWX
+- user://YF7MBwe4
+- user://OWoZNEFK
+- user://z2fdOpG7
+- user://HkgAh7bJ
+- user://1CYKGnV2
+- user://CfG84xb8
+- user://YHTVX6tZ
+- user://1GdSd2l5
+- user://7FWZI9h2
+- user://iYqr0qXc
+- user://LZFWJCAo
+- user://aviKgACv
+- user://0WMkyk1H
+- user://N0mT69ib
+- user://hLY4iSBG
+- user://zduNvIru
+- user://5vyDNp1E
+- user://95Gm5RTM
+- user://2oeAlSNl
+- user://JK9CQvig
+- user://f1ZFYXJj
+- user://BgWykjCv
+- user://FrwNFI1e
+- user://Is15p5DY
+- user://4OZ4pCnu
+- user://mEjD1bgf
+- user://fn3jQ6yJ
+- user://vVfP8hwi
+- user://PnkqUdv7
+- user://YLqIumuX
+- user://rLxoybRZ
+- user://218HLyM9
+- user://PHjyBvZj
+- user://aeXvFkPi
+- user://Tbb4zpPK
+- user://tWtZRAvb
+- user://UhE5C9SW
+- user://wHDYrEJy
+- user://rrSi0xaw
+- user://5NpzZdIA
+- user://CsMNTGkL
+- user://cGOiabYq
+- user://Y7BwCc5k
+- user://MVcLOUob
+- user://Hyq2eG6f
+- user://jpfIBQ70
+- user://qfa9Vrf2
+- user://wNgNdArn
+- user://q3XWwrjq
+- user://8QpOTdQW
+- user://JSVIznLL
+- user://x4IRrbyH
+- user://LHUyRbOx
+- user://Rz3984uI
+- user://j3j338Vw
+- user://2Y4yv9yC
+- user://O8ONcRPt
+- user://sz0oNtTM
+- user://F2aI8GgQ
+- user://LPmfiEI0
+- user://2mO1rx8m
+- user://9yukGysA
+- user://oEOj5I9p
+- user://7B0zT44i
+- user://UeSNLAhT
+- user://A79RH0MI
+- user://rvk9NEmM
+- user://vkkDO5Ys
+- user://a2Bs9eCh
+- user://d7hRcBZO
+- user://ENRv4FLC
+- user://wodIodks
+- user://0DqkdCqP
+- user://xV9INsaB
+- user://fsgRja94
+- user://Cr5SdWRG
+- user://URfxAFko
+- user://wJkD6pjr
+- user://opqLvk0C
+- user://GxOCEKqa
+- user://D1gDwabx
+- user://MTLoxkU4
+- user://lnsT4hOy
+- user://0o7RxEaE
+- user://UeGiWTd6
+- user://NUbrz3Id
+- user://8a4Ns2uV
+- user://D8Zazpl7
+- user://0Abge5aG
+- user://0mbGtIkN
+- user://21KYyoQr
+- user://3aKNpwzR
+- user://4CYsCgzF
+- user://4KGHuwc5
+- user://52BuS867
+- user://5jyGoiG7
+- user://6qlhi6wD
+- user://72FqjThK
+- user://7WfHXCuR
+- user://86UiNt6p
+- user://8oqEqVOh
+- user://9ODwdTEy
+- user://A3A8Wegy
+- user://A6K8ASPQ
+- user://AB5iKF4b
+- user://AIbZZoCW
+- user://AVB5rAdp
+- user://AfQcefII
+- user://AzImIvJU
+- user://B2AqYC33
+- user://BSNqW1T9
+- user://BuxpafcO
+- user://CHNJGEuA
+- user://Ctdw7X6P
+- user://DGFPi7jr
+- user://DYYYuY45
+- user://DaVwqVb9
+- user://DeLFZ0xK
+- user://DpcY3xoL
+- user://EkMtFmzE
+- user://F10Et2Wb
+- user://FPnm0MHx
+- user://FTkBTv3N
+- user://FvQjBvZ8
+- user://G3ikw3gV
+- user://GY8tInfq
+- user://H5h1rIFz
+- user://H5zvAIAu
+- user://HVvMhBEE
+- user://I6SoNdiE
+- user://IJMwF6lv
+- user://J3wlV596
+- user://KK7J0iIh
+- user://Kw8xz7aI
+- user://LDh3BMoO
+- user://LfeWEUMk
+- user://MHT4HgOB
+- user://MXC5DhCS
+- user://NM1UgCi7
+- user://O6GqxZDj
+- user://OakGkUfx
+- user://OoDpupdA
+- user://P6qhFiBN
+- user://RYVbIfyq
+- user://S5eLjQZz
+- user://ScMjkTAq
+- user://StG1Popj
+- user://TJDZnlJc
+- user://Tio9OaoX
+- user://UhDZ4rHY
+- user://VKWpPm93
+- user://VMzKflxy
+- user://VU1XBNuT
+- user://VpOd4ii0
+- user://WCqx4lC0
+- user://X1QJ4W6x
+- user://X7kNKEcc
+- user://X9QND0qP
+- user://Xa5X2Bmv
+- user://XkZym9L9
+- user://ZwYMzIoW
+- user://aboCnkcH
+- user://alT9UQVR
+- user://bFK3EELj
+- user://bxwLybK7
+- user://cJ0XU7Nc
+- user://cOJpnttz
+- user://cUKPCMSq
+- user://dO3ywXPP
+- user://e1DqsnrW
+- user://e5ogHVx3
+- user://gCqkSwZc
+- user://gl1bnwYw
+- user://hCs00BnZ
+- user://hdJuDq75
+- user://i3UP4kvj
+- user://j8pqBsor
+- user://kWEQPdch
+- user://lOi8e3j4
+- user://nZkij9tl
+- user://oAuzjvHK
+- user://oQVRYzbx
+- user://oRIgkebN
+- user://oXIqvoeZ
+- user://okXW4aUd
+- user://pX9hkENX
+- user://pZqdmIgn
+- user://q1nYfCHe
+- user://qQ3UQkmP
+- user://qhgLTQQS
+- user://rG9tno9p
+- user://rTcEAgkr
+- user://sNTyjutx
+- user://sSQY0ulG
+- user://tObmHF93
+- user://tPKn0oJW
+- user://uFZMpSBk
+- user://uTs40NqM
+- user://vCtHxkWa
+- user://vJBq28qz
+- user://vrIg13cN
+- user://wT509QR9
+- user://wkKeW1Wu
+- user://wpdpyVML
+- user://x5Lv1xvF
+- user://xXBTBX9I
+- user://xqKq3D8b
+- user://xwO7Ib0k
+- user://y4RMze77
+- user://ycVEPw5y
+- user://zQs1c05x
+
+----
+
+Report:
+
+- 
+  workshop:
+    - page://zAlf4wxhajKMbUm4
+  total: 21
+  year_a: 0
+  year_b: 1
+  year_c: 6
+  year_d: 6
+  male: 7
+  female: 14
+  average: 86.95
+- 
+  workshop:
+    - page://A4gXZNBlZUlwOpK1
+  total: 21
+  year_a: 0
+  year_b: 1
+  year_c: 6
+  year_d: 6
+  male: 8
+  female: 13
+  average: 87.45
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  total: 21
+  year_a: 0
+  year_b: 0
+  year_c: 4
+  year_d: 6
+  male: 6
+  female: 15
+  average: 87.53
+- 
+  workshop:
+    - page://McFp6uZvR5mkSilC
+  total: 21
+  year_a: 2
+  year_b: 6
+  year_c: 6
+  year_d: 7
+  male: 8
+  female: 13
+  average: 87.58
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  total: 21
+  year_a: 2
+  year_b: 6
+  year_c: 6
+  year_d: 7
+  male: 6
+  female: 15
+  average: 86.74
+
+----
+
+Uuid: ze12onhr7VWrgKZ2

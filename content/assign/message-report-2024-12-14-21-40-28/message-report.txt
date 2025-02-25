@@ -1,0 +1,30 @@
+Title: Message report 2024-12-14 21:40:28
+
+----
+
+Total-sent: 1
+
+----
+
+Total-failed: 0
+
+----
+
+Notices:
+
+- 
+  workshop:
+    - page://McFp6uZvR5mkSilC
+  user:
+    - user://i0lKcOKA
+  notice: >
+    Assignment email sent to
+    meirsadan@gmail.com successfully!
+
+----
+
+Alerts: 
+
+----
+
+Uuid: G3LC2Al4tc8yDntj

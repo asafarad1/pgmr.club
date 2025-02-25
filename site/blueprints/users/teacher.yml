@@ -1,0 +1,32 @@
+title: Teacher
+
+permissions:
+  access:
+    panel: false
+
+sections:
+  details:
+    type: fields
+    fields:
+      id_num:
+        label: ID number
+        type: text
+        width: 1/2
+      gender:
+        label: Gender
+        type: select
+        options:
+          - זכר
+          - נקבה
+        width: 1/2
+      fname:
+        label: First name
+        type: text
+        width: 1/2
+      lname:
+        label: Last name
+        type: text
+        width: 1/2
+      tel:
+        label: Mobile phone number
+        type: tel

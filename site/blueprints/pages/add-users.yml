@@ -1,0 +1,60 @@
+title: Add users
+
+options:
+  preview: false
+
+tabs:
+  settings:
+    sections:
+      settings:
+        type: fields
+        fields:
+          csv:
+            label: CSV of users to add/update
+            type: files
+            multiple: false
+          role:
+            label: Role to create newly imported users
+            type: select
+            options:
+              - admin
+              - student
+              - teacher
+          mapping:
+            label: Mapping table
+            type: structure
+            fields:
+              name:
+                label: Name of original column
+                type: text
+              field:
+                label: Map to field
+                type: select
+                options:
+                  - name
+                  - email
+                  - id_num
+                  - gender
+                  - fname
+                  - lname
+                  - tel
+                  - curriculum
+                  - studies_status
+                  - year
+                  - classroom
+                  - average
+                  - miluim
+                  - studio
+                  - degree
+          add_users:
+            type: janitor
+            label: Add/update users
+            command: add-users
+            width: 1/3
+      reports:
+        type: pages
+        template: add-users-report
+  files:
+    sections:
+      files:
+        type: files

@@ -1,0 +1,12 @@
+title: List
+
+fields:
+  intro:
+    type: writer
+  faq:
+    type: structure
+    fields:
+      question:
+        type: writer
+      answer:
+        type: writer

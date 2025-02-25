@@ -1,0 +1,476 @@
+@font-face { font-family: "80k"; font-weight: 400; src: url( "../fonts/80-kb-Grunge.woff2" ) format( "woff2" ); }
+@font-face { font-family: "SimplerAlte"; font-weight: 400; src: url( "../fonts/SimplerPro_Alte-Regular.woff2" ) format( "woff2" ); }
+@font-face { font-family: "SimplerAlte"; font-weight: 700; src: url( "../fonts/SimplerPro_Alte-Bold.woff2" ) format( "woff2" ); }
+
+@font-face { font-family: "DavidVC"; font-weight: 600; src: url( "../fonts/VC_david-Light.woff2" ) format( "woff2" ); }
+@font-face { font-family: "DavidVC"; font-weight: 700; src: url( "../fonts/VC_david-Bold.woff2" ) format( "woff2" ); }
+@font-face { font-family: "DavidVC"; font-weight: 600; font-style: italic; src: url( "../fonts/VC_david-Cursive.woff2" ) format( "woff2" ); }
+
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+html { height: 100%; }
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+img, picture, video, canvas, svg { display: block; max-width: 100%; }
+iframe { border: none; display: block; }
+input, button, textarea, select { font: inherit; border: 1px solid black; color: inherit; }
+p, h1, h2, h3, h4, h5, h6 { font-weight: inherit; font-size: 1em; word-break: break-word; }
+ul { list-style: none; padding: 0; }
+a { color: inherit; text-decoration: none; }
+details summary::marker { content: none; }
+::-webkit-details-marker { display: none; }
+fieldset { padding: 0; border: none; min-inline-size: 0; }
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "SimplerAlte", sans-serif;
+    line-height: 1.3;
+    font-weight: 400;
+    /* font-variant: small-caps; */
+    color: #3a280d;
+    background-color: #b8d0d4;
+    /* filter: blur(.25px) brightness(1.2) contrast(1.5); */
+    margin: 20px;
+    padding-bottom: 80px;
+}
+
+h1, h2, h3, h4 {
+    font-family: "80k", sans-serif;
+    font-weight: 400;
+}
+
+.link-to-top {
+    position: sticky;
+    bottom: 20px;
+    font-weight: bold;
+    background-color: #b8d0d4;
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+    display: block;
+    width: fit-content;
+    margin-inline-start: auto;
+    transition: opacity 250ms, visibility 250ms;
+}
+
+body.passed-top .link-to-top {
+    opacity: 1;
+    visibility: visible;
+}
+
+.link-to-top::before {
+    content: "^^^ ";
+    font-family: "80k", sans-serif;
+}
+
+.logout {
+    position: fixed;
+    bottom: 20px; left: 20px;
+    transform-origin: top left;
+    transform: rotate(-90deg);
+    /* background-color: white; */
+    font-family: "80k", sans-serif;
+    font-size: 1.5rem;
+}
+
+.logout a::before {
+    content: "× ";
+}
+
+.intro {
+    width: var(--100vh);
+    position: fixed;
+    top: 20px; left: 0;
+    transform-origin: top left;
+    transform: rotate(-90deg) translateX(-100%);
+    font-size: 1.5rem;
+}
+
+.faq p,
+.workshop p {
+    letter-spacing: 0.012em;
+    line-height: 1.4;
+}
+
+.alert, .alerts {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.notice {
+    font-size: 30px;
+    max-width: 52ch;
+}
+
+.intro, .notice, .login {
+    padding: 20px;
+    /* background-color: white; */
+    /* transform: rotate(-.45deg); */
+}
+
+.login form {
+    max-width: 480px;
+    margin-inline-end: 40px;
+}
+
+.countdown {
+    font-family: "80k", sans-serif;
+}
+
+input[type="submit"] {
+    appearance: none;
+    background-color: #3a280d;
+    color: #b8d0d4;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    height: 2.5rem;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.success > p {
+    font-weight: bold;
+}
+
+.success ul {
+    margin: 10px 0;
+    font-family: "80k", sans-serif;
+}
+
+form > h2,
+form > p {
+    margin-bottom: 10px;
+}
+
+form > h2:first-child {
+    margin-bottom: 20px;
+}
+
+form > p:has(label) {
+    margin-bottom: 5px;
+}
+
+form > h2 {
+    margin-bottom: 10px;
+}
+
+/* form label {
+    font-family: "80k", sans-serif;
+} */
+
+.select-container {
+    position: relative;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    position: relative;
+    appearance: none;
+    line-height: 1.4;
+    border-radius: 2px;
+    height: 2.5rem;
+    /* background-color: #3a280d;
+    color: white; */
+    padding-inline: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    display: block;
+    width: 100%;
+}
+
+textarea {
+    height: 10rem;
+}
+
+form select {
+    position: relative;
+    appearance: none;
+    line-height: 1.4;
+    border-radius: 2px;
+    height: 2.5rem;
+    /* background-color: #3a280d;
+    color: white; */
+    padding-inline: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    display: block;
+    background-color: rgba(250, 250, 167, 1);
+}
+
+form .select-container::before {
+    content: "->";
+    font-family: "80k", sans-serif;
+    position: absolute;
+    top: 50%; left: 10px;
+    transform: translateY(-50%);
+    z-index: 100;
+    pointer-events: none;
+}
+
+.workshops-layout {
+    /* background-color: white; */
+}
+
+.workshops-layout > * {
+    padding: 20px;
+}
+
+.workshops-list {
+    /* transform: rotate(.15deg); */
+}
+
+.workshops-list > h2 {
+    margin-bottom: 40px;
+}
+
+.workshops-list .workshop {
+    margin-bottom: 80px;
+    border-top: 1px dashed #3a280d;
+    padding-top: 20px;
+    margin-inline-end: 40px;
+}
+
+.workshops-list .workshop p + p {
+    margin-top: 10px;
+}
+
+.workshops-list .workshop p a {
+    text-decoration: underline;
+}
+
+.workshops-list .workshop .workshop-title {
+    font-size: 1.5rem;
+}
+
+.workshops-list .workshop .workshop-title,
+.workshops-list .workshop .workshop-teacher {
+    max-width: 40ch;
+}
+
+.workshops-list .workshop .workshop-teacher,
+.workshops-list .workshop .workshop-duration  {
+    margin-bottom: 20px;
+    /* font-weight: bold; */
+    font-family: "80k", sans-serif;
+    font-size: 1.5rem;
+}
+
+.workshops-list .workshop .workshop-teacher p {
+    display: inline;
+}
+
+.workshops-list .workshop .workshop-teacher p::before,
+.workshops-list .workshop .workshop-duration p::before {
+    content: "—> ";
+}
+
+.workshop-duration p {
+    margin: 10px 0;
+}
+
+.workshop-bio {
+    margin: 20px 0;
+}
+
+/* .workshop-bio::first-line {
+    font-weight: bold;
+} */
+
+.workshops-list .workshop p {
+    max-width: 480px;
+}
+
+.workshops-list .workshop .workshop-subhead {
+    margin: 10px 0 5px;
+}
+
+form select {
+    width: 100%;
+}
+
+/* .form-comment strong {
+    font-family: "80k", sans-serif;
+    font-weight: 400;
+} */
+
+.form-comment {
+    margin-bottom: 50px;
+}
+
+.faq details {
+    margin-bottom: 10px;
+    position: relative;
+    border-top: 1px dashed #3a280d;
+    padding-top: 10px;
+}
+
+.faq details:last-child {
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #3a280d;
+}
+
+.faq-answer {
+    margin-inline-start: 25px;
+    padding-top: 10px;
+}
+
+.faq details summary {
+    position: relative;
+    margin-inline-start: 25px;
+}
+
+.faq details summary::before {
+    content: "->";
+    font-family: "80k", sans-serif;
+    position: absolute;
+    right: -25px; top: 0;
+}
+
+.faq details[open] summary::before {
+    content: "<-";
+}
+
+.feedback-form {
+    margin: 20px;
+    max-width: 66ch;
+}
+
+.feedback-form .form-row {
+    margin-bottom: 20px;
+}
+
+.feedback-form .form-row > label,
+.feedback-form .question-label {
+    display: block;
+    margin: 0 0 10px;
+}
+
+.feedback-form .radio-block {
+    display: flex;
+    width: 100%;
+}
+
+.feedback-form .radio-block-choice {
+    position: relative;
+    display: block;
+}
+
+.feedback-form .radio-block-choice input {
+    appearance: none;
+    border: none;
+    background: none;
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%; z-index: 10;
+}
+
+.feedback-form .radio-block-choice input + label {
+    display: block;
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.feedback-form .radio-block-choice input:checked + label {
+    background-color: #3a280d;
+    color: #b8d0d4;
+}
+
+.feedback-form .radio-block-choice:not(:last-child) input + label {
+    border-inline-end: none;
+}
+
+.feedback-form .radio-block > * {
+    flex: 1;
+}
+
+/* .faq details summary {
+    font-weight: bold;
+} */
+
+.workshop-sidebar {
+    mix-blend-mode: darken;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery > * {
+    width: 300px; height: 300px;
+}
+
+.gallery .workshop-title {
+    background-color: #3a280d;
+    color: #b8d0d4;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.gallery figure img {
+    width: 100%; height: 100%;
+    object-fit: contain;
+    filter: brightness(0.8) sepia(1);
+    mix-blend-mode: darken;
+}
+
+@media ( max-width: 640px ) {
+    body {
+        margin: 0;
+    }
+    .intro,
+    .logout,
+    .notice {
+        font-size: 20px;
+    }
+    .intro {
+        padding: 10px 0;
+    }
+    .logout {
+        left: 10px;
+    }
+    .notice,
+    form,
+    .faq,
+    .workshop {
+        margin-inline-end: 40px;
+    }
+}
+
+@media (min-width: 640px) {
+    .workshops-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
+    
+    .workshops-layout > form {
+        position: sticky;
+        top: 0;
+    }
+
+    .workshop-sidebar {
+        position: sticky;
+        top: 0;
+    }    
+}
+
+@media (min-width: 960px) {
+    .workshops-layout {
+        grid-template-columns: 1fr 2fr;
+    }
+}

@@ -1,0 +1,153 @@
+Title: Assignment report 2024-12-12 22:44
+
+----
+
+Total-first: 415
+
+----
+
+Total-second: 29
+
+----
+
+Total-third: 6
+
+----
+
+Total-fourth: 0
+
+----
+
+Total-random: 54
+
+----
+
+Randoms:
+
+- user://VY32CUhB
+- user://GxOCEKqa
+- user://D1gDwabx
+- user://MTLoxkU4
+- user://lnsT4hOy
+- user://0o7RxEaE
+- user://UeGiWTd6
+- user://NUbrz3Id
+- user://8a4Ns2uV
+- user://D8Zazpl7
+- user://cUKPCMSq
+- user://dO3ywXPP
+- user://e1DqsnrW
+- user://e5ogHVx3
+- user://gCqkSwZc
+- user://gl1bnwYw
+- user://hCs00BnZ
+- user://hdJuDq75
+- user://i3UP4kvj
+- user://j8pqBsor
+- user://kWEQPdch
+- user://lOi8e3j4
+- user://nZkij9tl
+- user://oAuzjvHK
+- user://oQVRYzbx
+- user://oRIgkebN
+- user://oXIqvoeZ
+- user://okXW4aUd
+- user://pX9hkENX
+- user://pZqdmIgn
+- user://q1nYfCHe
+- user://qQ3UQkmP
+- user://qhgLTQQS
+- user://rG9tno9p
+- user://rTcEAgkr
+- user://sNTyjutx
+- user://sSQY0ulG
+- user://tObmHF93
+- user://tPKn0oJW
+- user://uFZMpSBk
+- user://uTs40NqM
+- user://vCtHxkWa
+- user://vJBq28qz
+- user://vrIg13cN
+- user://wT509QR9
+- user://wkKeW1Wu
+- user://wpdpyVML
+- user://x5Lv1xvF
+- user://xXBTBX9I
+- user://xqKq3D8b
+- user://xwO7Ib0k
+- user://y4RMze77
+- user://ycVEPw5y
+- user://zQs1c05x
+
+----
+
+Unassigned:
+
+- user://3Zu8bt5B
+- user://4fCNWAY8
+- user://1KaNTk9e
+- user://D2pHH8sK
+
+----
+
+Report:
+
+- 
+  workshop:
+    - page://zAlf4wxhajKMbUm4
+  total: 150
+  year_a: 32
+  year_b: 38
+  year_c: 38
+  year_d: 34
+  male: 38
+  female: 112
+  average: 85.74
+- 
+  workshop:
+    - page://A4gXZNBlZUlwOpK1
+  total: 150
+  year_a: 24
+  year_b: 38
+  year_c: 38
+  year_d: 42
+  male: 38
+  female: 112
+  average: 86.33
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  total: 150
+  year_a: 27
+  year_b: 38
+  year_c: 36
+  year_d: 38
+  male: 44
+  female: 106
+  average: 85.44
+- 
+  workshop:
+    - page://McFp6uZvR5mkSilC
+  total: 25
+  year_a: 20
+  year_b: 4
+  year_c: 1
+  year_d: 0
+  male: 10
+  female: 15
+  average: 80.03
+- 
+  workshop:
+    - page://3ukt7opcWWW9SJcx
+  total: 29
+  year_a: 24
+  year_b: 5
+  year_c: 0
+  year_d: 0
+  male: 9
+  female: 20
+  average: 78.98
+
+----
+
+Uuid: dcmwRNdi8qj5F14j

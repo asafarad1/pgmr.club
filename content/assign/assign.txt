@@ -1,0 +1,38 @@
+Title: שיבוץ
+
+----
+
+Assign-random: true
+
+----
+
+Dont-check-random: false
+
+----
+
+Exclude-from-random:
+
+- 
+  name: degree
+  comparator: same
+  value: >
+    תואר שני בתקשורת
+    חזותית
+
+----
+
+Order:
+
+- 
+  name: year
+  direction: desc
+- 
+  name: miluim
+  direction: desc
+- 
+  name: average
+  direction: desc
+
+----
+
+Uuid: ZVKRSBiZdnAyLRW4

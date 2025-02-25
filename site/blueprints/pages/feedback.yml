@@ -1,0 +1,26 @@
+title: Feedback
+
+fields:
+  intro:
+    type: writer
+  questions:
+    type: structure
+    fields:
+      name:
+        type: slug
+        help: Simple identifying name in lowercase
+      question:
+        type: writer
+        inline: true
+      type:
+        type: select
+        options:
+          - text
+          - textarea
+          - checkboxes
+          - radios
+          - dropdown
+      options:
+        type: tags
+      required:
+        type: toggle

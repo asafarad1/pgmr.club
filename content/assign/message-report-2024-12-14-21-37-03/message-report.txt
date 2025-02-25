@@ -1,0 +1,18 @@
+Notices:
+
+- 
+  workshop:
+    - page://McFp6uZvR5mkSilC
+  user:
+    - user://i0lKcOKA
+  notice: >
+    Assignment email sent to
+    meirsadan@gmail.com successfully!
+
+----
+
+Alerts: 
+
+----
+
+Uuid: rFsSsWMzVw3sUijR

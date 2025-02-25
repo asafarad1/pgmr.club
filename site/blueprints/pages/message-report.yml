@@ -1,0 +1,37 @@
+title: Messaging report
+
+options:
+  preview: false
+
+sections:
+  stats:
+    reports:
+      - label: "Total sent"
+        value: "{{ page.total_sent }}"
+      - label: "Total failed"
+        value: "{{ page.total_failed }}"
+  report:
+    type: fields
+    fields:
+      notices:
+        type: structure
+        fields:
+          workshop:
+            type: pages
+            multiple: false
+          user:
+            type: users
+            multiple: false
+          notice:
+            type: text
+      alerts:
+        type: structure
+        fields:
+          workshop:
+            type: pages
+            multiple: false
+          user:
+            type: users
+            multiple: false
+          alert:
+            type: text

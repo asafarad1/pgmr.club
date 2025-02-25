@@ -1,0 +1,190 @@
+Title: Message Assignments report 2024-12-18 22:06:44
+
+----
+
+Total-sent: 21
+
+----
+
+Total-failed: 0
+
+----
+
+Notices:
+
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://mooVKLbY
+  notice: >
+    Assignment email sent to
+    kobrinivan3@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://kw1HX3sv
+  notice: >
+    Assignment email sent to
+    paulrozenboim@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://XEA7RlzL
+  notice: >
+    Assignment email sent to
+    jabali.monna@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://YWoBmxFO
+  notice: >
+    Assignment email sent to
+    smayy98@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://xeOdUuvD
+  notice: >
+    Assignment email sent to
+    arielleko1@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://c1ccG9iz
+  notice: >
+    Assignment email sent to
+    idoshapira5@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://c9mh6HnH
+  notice: >
+    Assignment email sent to
+    emanuel86@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://X78iYPsH
+  notice: >
+    Assignment email sent to
+    uchiteleah@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://kfGExjml
+  notice: >
+    Assignment email sent to
+    avivichen2@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://teKoo97J
+  notice: >
+    Assignment email sent to
+    aleksaronova@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://wAsOZ0ik
+  notice: >
+    Assignment email sent to
+    bal.reuven@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://piqTh6xj
+  notice: >
+    Assignment email sent to
+    ohad0017@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://1Uc6ujij
+  notice: >
+    Assignment email sent to
+    raznoa3@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://rKDV09Ci
+  notice: >
+    Assignment email sent to
+    taldanciger10@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://ZblMrYtN
+  notice: >
+    Assignment email sent to
+    jeny157@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://QIVBTNh8
+  notice: >
+    Assignment email sent to
+    mayabarak35@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://EjxfRptn
+  notice: >
+    Assignment email sent to
+    omerharel19@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://OXrG0Knu
+  notice: >
+    Assignment email sent to
+    dariabendror@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://3Ox9ahs3
+  notice: >
+    Assignment email sent to
+    shirabenda461@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://VPxBDzCY
+  notice: >
+    Assignment email sent to
+    yaelhasson2@gmail.com successfully!
+- 
+  workshop:
+    - page://SjPGRU9bkg1hwEnt
+  user:
+    - user://P9lmEQMY
+  notice: >
+    Assignment email sent to
+    natalierissin@gmail.com successfully!
+
+----
+
+Alerts: 
+
+----
+
+Uuid: z1AgrejxusVIcMQu

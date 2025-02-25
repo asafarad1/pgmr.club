@@ -1,0 +1,16 @@
+{
+  "identifier" : "615D1074-0F78-4CE9-AEE9-25F9632D80A7",
+  "ignoredFilePatterns" : [
+    ".nova",
+    ".vscode\/launch.json",
+    "site\/cache",
+    "site\/sessions",
+    "assets\/data",
+    "site\/accounts",
+    "assets\/exports"
+  ],
+  "localPath" : ".",
+  "remotePath" : "\/public_html",
+  "server" : "Retreat2024",
+  "usesPublishing" : true
+}

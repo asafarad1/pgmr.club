@@ -1,0 +1,5 @@
+title: Image file
+
+fields:
+  caption:
+    type: text

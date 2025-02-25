@@ -1,0 +1,26 @@
+title: Add users report
+
+options:
+  preview: false
+
+sections:
+  stats:
+    reports:
+      - label: "Total added"
+        value: "{{ page.total_added }}"
+      - label: "Total failed"
+        value: "{{ page.total_failed }}"
+  report:
+    type: fields
+    fields:
+      added:
+        type: users
+      updated:
+        type: users
+      alerts:
+        type: structure
+        fields:
+          email:
+            type: text
+          alert:
+            type: text
