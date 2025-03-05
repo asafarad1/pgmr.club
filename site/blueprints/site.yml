@@ -2,46 +2,46 @@ title: Site
 
 tabs:
   manage:
-    sections:
-      weeks:
-        type: pages
-        template: week
-      stats:
-        type: stats
-        label: Workshop statistics
-        reports:
-          - label: Total workshops
-            value: "{{ site.getWorkshops.count }}"
-          - label: Total seats
-            value: "{{ site.totalSeats }}"
-          - label: Total selected
-            value: "{{ site.totalSelected }}"
-          - label: Total participants
-            value: "{{ site.totalParticipants }}"
-          - label: Total unassigned
-            value: "{{ site.totalUnassigned }}"
-      workshops:
-        type: pages
-        template: workshop
-        limit: 100
-        layout: table
-        sortBy: title asc
-        columns:
-          teacher: true
-          participants:
-            type: text
-            value: "{{ page.participants.toUsers.count }}"
-          assistant: true
-          available:
-            label: Available seats
-            type: text
-            value: "{{ page.getAvailability }}"
-      more:
-        type: pages
-        templatesIgnore:
-          - error
-          - workshop
-          - login
+      sections:
+        workshops:
+            type: pages
+            template: workshop
+            limit: 100
+            layout: table
+            sortBy: title asc
+            columns:
+              teacher: true
+              participants:
+                type: text
+                value: "{{ page.participants.toUsers.count }}"
+              assistant: true
+              available:
+                label: Available seats
+                type: text
+                value: "{{ page.getAvailability }}"
+        weeks:
+          type: pages
+          template: week
+        stats:
+          type: stats
+          label: Workshop statistics
+          reports:
+            - label: Total workshops
+              value: "{{ site.getWorkshops.count }}"
+            - label: Total seats
+              value: "{{ site.totalSeats }}"
+            - label: Total selected
+              value: "{{ site.totalSelected }}"
+            - label: Total participants
+              value: "{{ site.totalParticipants }}"
+            - label: Total unassigned
+              value: "{{ site.totalUnassigned }}"
+        more:
+          type: pages
+          templatesIgnore:
+            - error
+            - workshop
+            - login
   emails:
     sections:
       emails:
