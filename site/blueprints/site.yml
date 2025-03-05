@@ -3,6 +3,9 @@ title: Site
 tabs:
   manage:
     sections:
+      weeks:
+        type: pages
+        template: week
       stats:
         type: stats
         label: Workshop statistics
@@ -84,3 +87,9 @@ tabs:
             label: Deadline for students to give feedback
             type: date
             time: true
+          club_start:
+            label: Club's start time
+            type: time
+          club_end:
+            label: Club's end time
+            type: time

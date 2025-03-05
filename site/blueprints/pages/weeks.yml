@@ -1,0 +1,6 @@
+title: Weeks
+
+sections:
+  categories:
+    type: pages
+    template: week

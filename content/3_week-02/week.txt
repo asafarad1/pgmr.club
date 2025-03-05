@@ -1,0 +1,25 @@
+Title: week-02
+
+----
+
+Week-number: 2
+
+----
+
+Monday-date: 2025-03-17
+
+----
+
+Monday-workshops: - page://McFp6uZvR5mkSilC
+
+----
+
+Wednesday-date: 2025-03-19
+
+----
+
+Wednesday-workshops: - page://SjPGRU9bkg1hwEnt
+
+----
+
+Uuid: MwTfDQm2W1wCVimt

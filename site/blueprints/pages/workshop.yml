@@ -11,18 +11,13 @@ tabs:
             fields:
               teacher:
                 label: Name of teacher(s)
-                type: writer
-              multiple:
-                label: Is there more than one teacher?
-                type: toggle
-              type:
+                type: list
+              workshop_type:
                 label: Workshop type
-                type: select
-                options:
-                  - lecture
-                  - workshop
-                  - panel
-                  - 
+                type: list
+              target_audience:
+                label: Target audience
+                type: list
               limit:
                 label: Maximum number of students
                 type: number
@@ -30,11 +25,6 @@ tabs:
               about:
                 label: About the workshop
                 type: writer
-              assistant:
-                label: Assistant student (from participants)
-                type: users
-                multiple: false
-                query: page.participants.toUsers
               participants:
                 label: Participants
                 type: users
@@ -54,20 +44,9 @@ tabs:
                 label: Message workshop leaders
                 command: message-teachers
                 width: 1/2
-              send_feedbacks:
-                type: janitor
-                label: Send feedback requests
-                command: message-feedbacks
-                width: 1/2
       column2:
         width: 1/2
         sections:
-          feedback:
-            type: stats
-            reports:
-              - link: "{{ page.url }}/feedback:true"
-                label: משובים
-                value: "{{ page.getFeedbackItems.count }} / {{ page.participants.toUsers.count }}"
           column2:
             type: fields
             fields:
@@ -76,29 +55,27 @@ tabs:
                 type: users
                 query: kirby.users.filterBy( 'role', 'teacher' )
               drive_link:
-                label: Link to workshop Google Drive
+                label: Link to workshop Google Sheets
                 type: link
-              second_drive_link:
-                label: Link to another workshop Google Drive (if needed)
+              schedule_link:
+                label: Link to קופ״ח Google Sheets
                 type: link
               requirements:
                 label: Special requirements
                 type: writer
               rooms:
                 label: Rooms
-                type: structure
-                fields:
-                  day:
-                    type: select
-                    options:
-                      - "שני 23.12"
-                      - "שלישי 24.12"
-                      - "רביעי 25.12"
-                  room:
-                    type: text
-              schedule:
-                label: Workshop schedule
                 type: writer
-              bio:
-                label: About the teacher(s)
-                type: writer
+                help: type the room's full name (חדר 129/אולם 202)
+              start_time:
+                label: Start time
+                type: time
+                notation: 24
+                display: HH:mm
+                placeholder: "{{ site.club_start }}"
+              end_time:
+                label: End time
+                type: time
+                notation: 24
+                display: HH:mm
+                placeholder: "{{ site.club_end }}"

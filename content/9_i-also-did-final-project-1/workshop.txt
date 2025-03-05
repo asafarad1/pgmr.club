@@ -1,0 +1,81 @@
+Title: גם אני עשיתי פגמ״ר #1
+
+----
+
+Teacher: <ul><li>מיכל בוננו</li><li>איתן אלוא</li><li>גדעון רימר</li></ul>
+
+----
+
+Workshop-type: <ul><li>סדנה</li><li>הרצאה</li></ul>
+
+----
+
+Target-audience: <ul><li>איור</li><li>משחקים</li><li>טיפוגרפיה</li></ul>
+
+----
+
+Limit: 
+
+----
+
+About: <p>מרצי המחלקה מספרים על פרויקט הגמר שלהם</p>
+
+----
+
+Participants: 
+
+----
+
+Teachers-users: 
+
+----
+
+Drive-link: 
+
+----
+
+Schedule-link: 
+
+----
+
+Requirements: 
+
+----
+
+Rooms: <p>חדר 129</p>
+
+----
+
+Start-time: 17:30:00
+
+----
+
+End-time: 20:30:00
+
+----
+
+Type: 
+
+----
+
+Second-drive-link: 
+
+----
+
+Schedule: 
+
+----
+
+Bio: 
+
+----
+
+Multiple: true
+
+----
+
+Assistant: 
+
+----
+
+Uuid: n3IFTkkzmKKacPpv

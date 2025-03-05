@@ -1,0 +1,49 @@
+Title: גם אני עשיתי פגמ״ר #2
+
+----
+
+Teacher: <ul><li>אמיתי גלעד</li></ul>
+
+----
+
+Workshop-type: <ul><li>הרצאה</li></ul>
+
+----
+
+Target-audience: <ul><li>טיפוגרפיה</li></ul>
+
+----
+
+Limit: 
+
+----
+
+About: <p>מרצי המחלקה מספרים על פרויקט הגמר שלהם</p>
+
+----
+
+Participants: 
+
+----
+
+Teachers-users: 
+
+----
+
+Drive-link: 
+
+----
+
+Schedule-link: 
+
+----
+
+Requirements: 
+
+----
+
+Rooms: 
+
+----
+
+Uuid: AD9B4GgvQnX8MSvM

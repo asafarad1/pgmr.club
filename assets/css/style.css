@@ -1,76 +1,155 @@
-@font-face { font-family: "80k"; font-weight: 400; src: url( "../fonts/80-kb-Grunge.woff2" ) format( "woff2" ); }
-@font-face { font-family: "SimplerAlte"; font-weight: 400; src: url( "../fonts/SimplerPro_Alte-Regular.woff2" ) format( "woff2" ); }
-@font-face { font-family: "SimplerAlte"; font-weight: 700; src: url( "../fonts/SimplerPro_Alte-Bold.woff2" ) format( "woff2" ); }
+@font-face {
+    font-family: "80k";
+    font-weight: 400;
+    src: url("../fonts/80-kb-Sharp.woff2") format("woff2");
+}
 
-@font-face { font-family: "DavidVC"; font-weight: 600; src: url( "../fonts/VC_david-Light.woff2" ) format( "woff2" ); }
-@font-face { font-family: "DavidVC"; font-weight: 700; src: url( "../fonts/VC_david-Bold.woff2" ) format( "woff2" ); }
-@font-face { font-family: "DavidVC"; font-weight: 600; font-style: italic; src: url( "../fonts/VC_david-Cursive.woff2" ) format( "woff2" ); }
+@font-face {
+    font-family: "80k-Stencil";
+    font-weight: 400;
+    src: url("../fonts/80-kb-Stencil.woff2") format("woff2");
+}
 
-*, *::before, *::after { box-sizing: border-box; }
-* { margin: 0; }
-html { height: 100%; }
-body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-img, picture, video, canvas, svg { display: block; max-width: 100%; }
-iframe { border: none; display: block; }
-input, button, textarea, select { font: inherit; border: 1px solid black; color: inherit; }
-p, h1, h2, h3, h4, h5, h6 { font-weight: inherit; font-size: 1em; word-break: break-word; }
-ul { list-style: none; padding: 0; }
-a { color: inherit; text-decoration: none; }
-details summary::marker { content: none; }
-::-webkit-details-marker { display: none; }
-fieldset { padding: 0; border: none; min-inline-size: 0; }
+@font-face {
+    font-family: "SimplerAlte";
+    font-weight: 400;
+    src: url("../fonts/SimplerPro_Alte-Regular.woff2") format("woff2");
+}
 
-html, body {
+@font-face {
+    font-family: "SimplerAlte";
+    font-weight: 700;
+    src: url("../fonts/SimplerPro_Alte-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "DavidVC";
+    font-weight: 600;
+    src: url("../fonts/VC_david-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "DavidVC";
+    font-weight: 600;
+    font-style: italic;
+    src: url("../fonts/VC_david-Cursive.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "DavidVC";
+    font-weight: 700;
+    src: url("../fonts/VC_david-Bold.woff2") format("woff2");
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+iframe {
+    border: none;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    border: 1px solid black;
+    color: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: 1em;
+    word-break: break-word;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+details summary::marker {
+    content: none;
+}
+
+::-webkit-details-marker {
+    display: none;
+}
+
+fieldset {
+    padding: 0;
+    border: none;
+    min-inline-size: 0;
+}
+
+html,
+body {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: "SimplerAlte", sans-serif;
-    line-height: 1.3;
+    font-family: "80k", sans-serif;
+    line-height: 1.2;
     font-weight: 400;
-    /* font-variant: small-caps; */
-    color: #3a280d;
-    background-color: #b8d0d4;
-    /* filter: blur(.25px) brightness(1.2) contrast(1.5); */
-    margin: 20px;
+    color: var(--black-clr);
+    background-color: var(--top-clr);
     padding-bottom: 80px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: "80k", sans-serif;
     font-weight: 400;
-}
-
-.link-to-top {
-    position: sticky;
-    bottom: 20px;
-    font-weight: bold;
-    background-color: #b8d0d4;
-    padding: 20px;
-    opacity: 0;
-    visibility: hidden;
-    display: block;
-    width: fit-content;
-    margin-inline-start: auto;
-    transition: opacity 250ms, visibility 250ms;
-}
-
-body.passed-top .link-to-top {
-    opacity: 1;
-    visibility: visible;
-}
-
-.link-to-top::before {
-    content: "^^^ ";
-    font-family: "80k", sans-serif;
 }
 
 .logout {
     position: fixed;
-    bottom: 20px; left: 20px;
+    bottom: 20px;
+    left: 20px;
     transform-origin: top left;
     transform: rotate(-90deg);
-    /* background-color: white; */
     font-family: "80k", sans-serif;
     font-size: 1.5rem;
 }
@@ -82,19 +161,15 @@ body.passed-top .link-to-top {
 .intro {
     width: var(--100vh);
     position: fixed;
-    top: 20px; left: 0;
+    top: 20px;
+    left: 0;
     transform-origin: top left;
     transform: rotate(-90deg) translateX(-100%);
     font-size: 1.5rem;
 }
 
-.faq p,
-.workshop p {
-    letter-spacing: 0.012em;
-    line-height: 1.4;
-}
-
-.alert, .alerts {
+.alert,
+.alerts {
     color: red;
     margin-bottom: 20px;
 }
@@ -104,10 +179,10 @@ body.passed-top .link-to-top {
     max-width: 52ch;
 }
 
-.intro, .notice, .login {
+.intro,
+.notice,
+.login {
     padding: 20px;
-    /* background-color: white; */
-    /* transform: rotate(-.45deg); */
 }
 
 .login form {
@@ -133,7 +208,7 @@ input[type="submit"] {
     margin: 10px 0;
 }
 
-.success > p {
+.success>p {
     font-weight: bold;
 }
 
@@ -142,26 +217,23 @@ input[type="submit"] {
     font-family: "80k", sans-serif;
 }
 
-form > h2,
-form > p {
+form>h2,
+form>p {
     margin-bottom: 10px;
 }
 
-form > h2:first-child {
+form>h2:first-child {
     margin-bottom: 20px;
 }
 
-form > p:has(label) {
+form>p:has(label) {
     margin-bottom: 5px;
 }
 
-form > h2 {
+form>h2 {
     margin-bottom: 10px;
 }
 
-/* form label {
-    font-family: "80k", sans-serif;
-} */
 
 .select-container {
     position: relative;
@@ -177,8 +249,6 @@ input[type="tel"] {
     line-height: 1.4;
     border-radius: 2px;
     height: 2.5rem;
-    /* background-color: #3a280d;
-    color: white; */
     padding-inline: 10px;
     margin-top: 5px;
     margin-bottom: 15px;
@@ -197,8 +267,6 @@ form select {
     line-height: 1.4;
     border-radius: 2px;
     height: 2.5rem;
-    /* background-color: #3a280d;
-    color: white; */
     padding-inline: 10px;
     margin-top: 5px;
     margin-bottom: 15px;
@@ -211,97 +279,16 @@ form .select-container::before {
     content: "->";
     font-family: "80k", sans-serif;
     position: absolute;
-    top: 50%; left: 10px;
+    top: 50%;
+    left: 10px;
     transform: translateY(-50%);
     z-index: 100;
     pointer-events: none;
 }
 
-.workshops-layout {
-    /* background-color: white; */
-}
-
-.workshops-layout > * {
-    padding: 20px;
-}
-
-.workshops-list {
-    /* transform: rotate(.15deg); */
-}
-
-.workshops-list > h2 {
-    margin-bottom: 40px;
-}
-
-.workshops-list .workshop {
-    margin-bottom: 80px;
-    border-top: 1px dashed #3a280d;
-    padding-top: 20px;
-    margin-inline-end: 40px;
-}
-
-.workshops-list .workshop p + p {
-    margin-top: 10px;
-}
-
-.workshops-list .workshop p a {
-    text-decoration: underline;
-}
-
-.workshops-list .workshop .workshop-title {
-    font-size: 1.5rem;
-}
-
-.workshops-list .workshop .workshop-title,
-.workshops-list .workshop .workshop-teacher {
-    max-width: 40ch;
-}
-
-.workshops-list .workshop .workshop-teacher,
-.workshops-list .workshop .workshop-duration  {
-    margin-bottom: 20px;
-    /* font-weight: bold; */
-    font-family: "80k", sans-serif;
-    font-size: 1.5rem;
-}
-
-.workshops-list .workshop .workshop-teacher p {
-    display: inline;
-}
-
-.workshops-list .workshop .workshop-teacher p::before,
-.workshops-list .workshop .workshop-duration p::before {
-    content: "—> ";
-}
-
-.workshop-duration p {
-    margin: 10px 0;
-}
-
-.workshop-bio {
-    margin: 20px 0;
-}
-
-/* .workshop-bio::first-line {
-    font-weight: bold;
-} */
-
-.workshops-list .workshop p {
-    max-width: 480px;
-}
-
-.workshops-list .workshop .workshop-subhead {
-    margin: 10px 0 5px;
-}
-
 form select {
     width: 100%;
 }
-
-/* .form-comment strong {
-    font-family: "80k", sans-serif;
-    font-weight: 400;
-} */
 
 .form-comment {
     margin-bottom: 50px;
@@ -333,7 +320,8 @@ form select {
     content: "->";
     font-family: "80k", sans-serif;
     position: absolute;
-    right: -25px; top: 0;
+    right: -25px;
+    top: 0;
 }
 
 .faq details[open] summary::before {
@@ -349,7 +337,7 @@ form select {
     margin-bottom: 20px;
 }
 
-.feedback-form .form-row > label,
+.feedback-form .form-row>label,
 .feedback-form .question-label {
     display: block;
     margin: 0 0 10px;
@@ -370,10 +358,14 @@ form select {
     border: none;
     background: none;
     position: absolute;
-    top: 0; left: 0; width: 100%; height: 100%; z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
 }
 
-.feedback-form .radio-block-choice input + label {
+.feedback-form .radio-block-choice input+label {
     display: block;
     border: 1px solid black;
     width: 100%;
@@ -381,22 +373,18 @@ form select {
     text-align: center;
 }
 
-.feedback-form .radio-block-choice input:checked + label {
+.feedback-form .radio-block-choice input:checked+label {
     background-color: #3a280d;
     color: #b8d0d4;
 }
 
-.feedback-form .radio-block-choice:not(:last-child) input + label {
+.feedback-form .radio-block-choice:not(:last-child) input+label {
     border-inline-end: none;
 }
 
-.feedback-form .radio-block > * {
+.feedback-form .radio-block>* {
     flex: 1;
 }
-
-/* .faq details summary {
-    font-weight: bold;
-} */
 
 .workshop-sidebar {
     mix-blend-mode: darken;
@@ -408,8 +396,9 @@ form select {
     gap: 20px;
 }
 
-.gallery > * {
-    width: 300px; height: 300px;
+.gallery>* {
+    width: 300px;
+    height: 300px;
 }
 
 .gallery .workshop-title {
@@ -422,27 +411,32 @@ form select {
 }
 
 .gallery figure img {
-    width: 100%; height: 100%;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
     filter: brightness(0.8) sepia(1);
     mix-blend-mode: darken;
 }
 
-@media ( max-width: 640px ) {
+@media (max-width: 640px) {
     body {
         margin: 0;
     }
+
     .intro,
     .logout,
     .notice {
         font-size: 20px;
     }
+
     .intro {
         padding: 10px 0;
     }
+
     .logout {
         left: 10px;
     }
+
     .notice,
     form,
     .faq,
@@ -451,6 +445,7 @@ form select {
     }
 }
 
+/* 
 @media (min-width: 640px) {
     .workshops-layout {
         display: grid;
@@ -471,6 +466,247 @@ form select {
 
 @media (min-width: 960px) {
     .workshops-layout {
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1fr;
     }
+} */
+
+/* pgmr.club */
+
+:root {
+    /* Typography */
+    font-size: 15px;
+
+    /* Colors */
+    --white-bright-clr: #F9F5EF;
+    --white-dark-clr: #EDE3D5;
+    --black-clr: #7D4824;
+    --top-clr: #7D4824;
+    --monday-clr: #0038F0;
+    --monday-bright-clr: #D1D8FA;
+    --wednesday-clr: #E84CB6;
+    --wednesday-bright-clr: #FFCBF5;
+
+    /* strokes */
+    --storke-width: 4px;
+    --border: var(--storke-width) solid var(--black-clr);
+
+    /* layers */
+    --layer-0: 11;
+    --layer-1: 10;
+    --layer-2: 9;
+    --layer-back: 0;
+}
+
+.link-to-top {
+    position: fixed;
+    top: 9px;
+    left: 2px;
+    transform: translateY(-150%);
+    visibility: hidden;
+    display: block;
+    width: 3rem;
+    margin-inline-start: auto;
+    transition: transform 0.3s ease, visibility 0.3s ease;
+    z-index: var(--layer-0);
+}
+
+body.passed-top .link-to-top {
+    transform: translateY(0);
+    visibility: visible;
+}
+
+.link-to-top>img {
+    height: 20px;
+}
+
+.workshops-header {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: -100px;
+    z-index: var(--layer-1);
+}
+
+.workshops-header-label {
+    display: flex;
+    background-color: var(--top-clr);
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+}
+
+.workshops-header-label>img {
+    max-height: 40%;
+    max-width: 70%;
+}
+
+.workshops-header-days {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1rem;
+    color: var(--white-bright-clr);
+    height: 40px;
+}
+
+.workshops-header-days .workshops-header-day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workshops-header-days .workshops-header-day:first-child {
+    background-color: var(--monday-clr);
+}
+
+.workshops-header-days .workshops-header-day:last-child {
+    background-color: var(--wednesday-clr);
+}
+
+.workshops-week-header {
+    position: sticky;
+    top: 80px;
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: var(--white-dark-clr);
+    border-bottom: var(--border);
+    font-size: 1rem;
+    color: var(--black-clr);
+    z-index: var(--layer-2);
+}
+
+.workshops-week-header .week-header-date:first-child {
+    color: var(--monday-clr);
+}
+
+.workshops-week-header .week-header-date:last-child {
+    color: var(--wednesday-clr);
+}
+
+.workshops-week-lists {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.workshops-layout::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 50%;
+    background: var(--black-clr);
+    width: var(--storke-width);
+    height: 100%;
+    pointer-events: none;
+}
+
+.workshop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    min-height: 400px;
+    width: 100%;
+    padding: 17px 17px;
+    background-color: var(--white-bright-clr);
+    border-bottom: var(--border);
+}
+
+.workshops-list-monday .workshop-title,
+.workshops-list-monday .workshop-description,
+.workshops-list-monday .workshop-teacher,
+.workshops-list-monday .workshop-rooms,
+.workshops-list-monday .workshop-time {
+    color: var(--monday-clr);
+}
+
+.workshops-list-wednesday .workshop-title,
+.workshops-list-wednesday .workshop-description,
+.workshops-list-wednesday .workshop-teacher,
+.workshops-list-wednesday .workshop-rooms,
+.workshops-list-wednesday .workshop-time {
+    color: var(--wednesday-clr);
+}
+
+.workshops-list-monday .workshop-description,
+.workshops-list-monday .workshop-teacher,
+.workshops-list-monday .workshop-time,
+.workshops-list-monday .workshop-tags {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed var(--monday-bright-clr);
+}
+
+.workshops-list-wednesday .workshop-description,
+.workshops-list-wednesday .workshop-teacher,
+.workshops-list-wednesday .workshop-time,
+.workshops-list-wednesday .workshop-tags {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed var(--wednesday-bright-clr);
+}
+
+.workshop-title h2 {
+    font-family: "SimplerAlte", sans-serif;
+    font-weight: 700;
+    line-height: 1.6rem;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.workshop-teacher li::before {
+    content: "-";
+    margin-left: 10px;
+}
+
+.workshop-tags ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    row-gap: 10px;
+}
+
+.workshop-tags li {
+    width: fit-content;
+    border-radius: 22px;
+    padding: 0 9px;
+}
+
+.workshop-type ul {
+    margin-bottom: 10px;
+}
+
+.workshop-type li {
+    color: var(--black-clr);
+    border: 1px solid var(--black-clr);
+}
+
+.workshops-list-monday .workshop-Target-audience li {
+    color: var(--monday-clr);
+    background-color: var(--monday-bright-clr);
+}
+
+.workshops-list-wednesday .workshop-Target-audience li {
+    color: var(--wednesday-clr);
+    background-color: var(--wednesday-bright-clr);
+}
+
+.apply-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--black-clr);
+    border-radius: 4px;
+    padding: 10px 0;
+
+    width: 100%;
+}
+
+.apply-button h2 {
+    font-family: "SimplerAlte", sans-serif;
+    font-weight: 400;
+    line-height: 1.6rem;
+    font-size: 1.5rem;
 }

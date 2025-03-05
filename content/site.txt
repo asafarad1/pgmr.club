@@ -1,4 +1,4 @@
-Title: ריטריט!
+Title: מועדון.פגמ״ר
 
 ----
 
@@ -26,7 +26,7 @@ Login-redirect-teacher: - page://XAb0TpcAg2n0ezkS
 
 ----
 
-Limit: 21
+Limit: 100
 
 ----
 
@@ -35,3 +35,11 @@ Deadline: 2025-03-31 18:20:00
 ----
 
 Feedback-deadline: 2025-01-05 12:00:00
+
+----
+
+Club-start: 17:30:00
+
+----
+
+Club-end: 20:30:00

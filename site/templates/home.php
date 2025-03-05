@@ -1,70 +1,42 @@
-<?php snippet( "header" ); ?>
+<?php snippet("header"); ?>
 
-<div class="intro">
-    <h1><?= $page->title() ?></h1>
-</div>
-
-<div class="notice">
-    <?=$page->intro() ?>
+<div class="workshops-header">
+    <div class="workshops-header-label">
+        <img src="<?= asset("assets/images/logo_full.svg")->url() ?>" alt="pgmr.club-logo">
+    </div>
+    <div class="workshops-header-days">
+        <div class="workshops-header-day">
+            <h2>שני</h2>
+        </div>
+        <div class="workshops-header-day">
+            <h2>רביעי</h2>
+        </div>
+    </div>
 </div>
 
 <div class="workshops-layout">
-
-<div class="workshop-sidebar">
-
-    <p class="lead-image">
-        <img src="<?=asset( "assets/images/main2.gif" )->url() ?>" alt="">
-    </p>
-
-    <p>
-        אוצרות שבוע הסדנאות: סוניה אוליטסקי, דן עוזרי ומאיר סדן<br>
-        הפקה: שירה חזות<br>
-        עיצוב גרפי: הילה קדמון ינאי ושי בלאו<br>
-    </p>
-
-    <?php if ( $page->faq()->isNotEmpty() ) : ?>
-    <h2>שאלות ותשובות:</h2>
-    <div class="faq">
-        <?php foreach ( $page->faq()->toStructure() as $faq_row ) : ?>
-        <details>
-            <summary class="faq-question"><?=$faq_row->question() ?></summary>
-            <div class="faq-answer">
-                <?=$faq_row->answer() ?>
+    <?php foreach ($page->weeks()->toPages() as $week): ?>
+        <div class="workshops-week">
+            <div class="workshops-week-header">
+                <h2 class="week-header-date"><?= $week->monday_date()->toDate('d/m') ?></h2>
+                <h2>שבוע <?= str_pad($week->week_number(), 2, '0', STR_PAD_LEFT) ?></h2>
+                <h2 class="week-header-date"><?= $week->wednesday_date()->toDate('d/m') ?></h2>
+                </h2>
             </div>
-        </details>
-        <?php endforeach; ?>
-    </div>
-    <?php endif; ?>
-
+            <div class="workshops-week-lists">
+                <div class="workshops-list-monday">
+                    <?php snippet('workshop', ['workshops' => $week->monday_workshops()->toPages()]); ?>
+                </div>
+                <div class="workshops-list-wednesday">
+                    <?php snippet('workshop', ['workshops' => $week->wednesday_workshops()->toPages()]); ?>
+                </div>
+            </div>
+        </div>
+    <?php endforeach ?>
 </div>
 
-<div class="workshops-list">
+<a href="#" class="link-to-top">
+    <img src="<?= asset("assets/images/logo_small.svg")->url() ?>" alt="pgmr.club-logo">
+</a>
 
-<h2>רשימת הסדנאות</h2>
-
-<?php foreach ( $workshops as $workshop ) : ?>
-
-    <div class="workshop">
-        <h3 class="workshop-title"><?=$workshop->title() ?></h2>
-        <div class="workshop-teacher"><?=$workshop->teacher() ?>
-        <?php if ( $workshop->duration()->isNotEmpty() ) : ?>
-            <p><?=$workshop->duration() ?></p>
-        <?php endif; ?>
-        </div>
-        <div class="workshop-about">
-            <?=$workshop->about() ?>
-        </div>
-        <div class="workshop-bio">
-            <?=$workshop->bio() ?>
-        </div>
-    </div>
-
-<?php endforeach; ?>
-
-</div>
-
-</div>
-
-<a href="#" class="link-to-top">בחזרה למעלה</a>
-
-<?php snippet( "footer" ); ?>
+<?php snippet("footer"); ?>

@@ -10,3 +10,7 @@ fields:
         type: writer
       answer:
         type: writer
+  weeks:
+    label: Weeks
+    type: pages
+    tamplate: week

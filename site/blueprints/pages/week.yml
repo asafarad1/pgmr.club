@@ -1,0 +1,29 @@
+title: Week
+
+fields:
+  week_number:
+    label: Week number
+    type: number
+  monday_date:
+    label: Monday date
+    type: date
+  monday_workshops:
+    label: סדנאות בשני
+    type: pages
+    query: site.children.listed.template('workshop')
+    multiple: true
+    layout: list
+    sortable: true
+    help: ניתן לשנות את הסדר על ידי גרירה.
+  wednesday_date:
+    label: Wednesday date
+    type: date
+  wednesday_workshops:
+    label: סדנאות ברביעי
+    type: pages
+    query: site.children.listed.template('workshop')
+    multiple: true
+    layout: list
+    sortable: true
+    help: ניתן לשנות את הסדר על ידי גרירה.
+  
