@@ -700,8 +700,9 @@ body.passed-top .link-to-top {
     border: 2px solid var(--black-clr);
     border-radius: 12px;
     padding: 10px 0;
-
+    height: 55px;
     width: 100%;
+    background-color: var(--white-dark-clr);
 }
 
 .apply-button h2 {

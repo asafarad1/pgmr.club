@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="apply-button">
-            <h2>להרשמה</h2>
+            <h2></h2>
         </div>
     </div>
 <?php endforeach ?>
