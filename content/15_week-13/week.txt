@@ -1,0 +1,25 @@
+Title: week-13
+
+----
+
+Week-number: 13
+
+----
+
+Monday-date: 2025-06-02
+
+----
+
+Monday-workshops: 
+
+----
+
+Wednesday-date: 2025-06-04
+
+----
+
+Wednesday-workshops: 
+
+----
+
+Uuid: icza8hiccn71MTHO

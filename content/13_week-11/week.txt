@@ -1,0 +1,25 @@
+Title: week-11
+
+----
+
+Week-number: 11
+
+----
+
+Monday-date: 2025-05-19
+
+----
+
+Monday-workshops: 
+
+----
+
+Wednesday-date: 2025-05-21
+
+----
+
+Wednesday-workshops: 
+
+----
+
+Uuid: D2ypi3aWjThBOyoS

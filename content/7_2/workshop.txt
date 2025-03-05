@@ -2,7 +2,7 @@ Title: גם אני עשיתי פגמ״ר #2
 
 ----
 
-Teacher: <ul><li>אמיתי גלעד</li></ul>
+Teacher: <ul><li>אמיתי גלעד</li><li>מיכל סהר</li><li>נעם שכטר</li></ul>
 
 ----
 
@@ -10,7 +10,7 @@ Workshop-type: <ul><li>הרצאה</li></ul>
 
 ----
 
-Target-audience: <ul><li>טיפוגרפיה</li></ul>
+Target-audience: <ul><li>טיפוגרפיה</li><li>מושן</li><li>אינטרקטיב</li></ul>
 
 ----
 
@@ -42,7 +42,15 @@ Requirements:
 
 ----
 
-Rooms: 
+Rooms: <p>חדר 129</p>
+
+----
+
+Start-time: 17:30:00
+
+----
+
+End-time: 20:30:00
 
 ----
 

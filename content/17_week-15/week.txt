@@ -1,0 +1,25 @@
+Title: week-15
+
+----
+
+Week-number: 15
+
+----
+
+Monday-date: 2025-06-16
+
+----
+
+Monday-workshops: 
+
+----
+
+Wednesday-date: 2025-06-18
+
+----
+
+Wednesday-workshops: 
+
+----
+
+Uuid: F2vvaM6LIDyD5RFX

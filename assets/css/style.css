@@ -609,7 +609,7 @@ body.passed-top .link-to-top {
     height: auto;
     min-height: 400px;
     width: 100%;
-    padding: 17px 17px;
+    padding: 19px 19px;
     background-color: var(--white-bright-clr);
     border-bottom: var(--border);
 }
@@ -698,7 +698,7 @@ body.passed-top .link-to-top {
     justify-content: center;
     align-items: center;
     border: 2px solid var(--black-clr);
-    border-radius: 4px;
+    border-radius: 12px;
     padding: 10px 0;
 
     width: 100%;

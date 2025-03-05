@@ -1,0 +1,25 @@
+Title: week-16
+
+----
+
+Week-number: 16
+
+----
+
+Monday-date: 2025-06-23
+
+----
+
+Monday-workshops: 
+
+----
+
+Wednesday-date: 2025-06-25
+
+----
+
+Wednesday-workshops: 
+
+----
+
+Uuid: ER5JH2VXx9rbnoI7

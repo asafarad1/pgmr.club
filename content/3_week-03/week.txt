@@ -10,7 +10,7 @@ Monday-date: 2025-03-24
 
 ----
 
-Monday-workshops: - page://n3IFTkkzmKKacPpv
+Monday-workshops: 
 
 ----
 
@@ -18,7 +18,7 @@ Wednesday-date: 2025-03-26
 
 ----
 
-Wednesday-workshops: - page://AD9B4GgvQnX8MSvM
+Wednesday-workshops: 
 
 ----
 

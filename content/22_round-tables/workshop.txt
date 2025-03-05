@@ -1,0 +1,57 @@
+Title: שולחנות עגולים
+
+----
+
+Teacher: <ul><li>מנחים.ות מתרבות חזותית וחומרית</li></ul>
+
+----
+
+Workshop-type: <ul><li>קופ״ח</li></ul>
+
+----
+
+Target-audience: <ul><li>כולם</li></ul>
+
+----
+
+Limit: 
+
+----
+
+About: <p>שיחות אישות סביב שאלת המחקר של הפרוייקט</p>
+
+----
+
+Participants: 
+
+----
+
+Teachers-users: 
+
+----
+
+Drive-link: 
+
+----
+
+Schedule-link: 
+
+----
+
+Requirements: 
+
+----
+
+Rooms: <p>קפיטריה</p>
+
+----
+
+Start-time: 17:30:00
+
+----
+
+End-time: 20:30:00
+
+----
+
+Uuid: kyPuHbY4MVSdWKL8

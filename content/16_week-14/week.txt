@@ -1,0 +1,25 @@
+Title: week-14
+
+----
+
+Week-number: 14
+
+----
+
+Monday-date: 2025-06-09
+
+----
+
+Monday-workshops: 
+
+----
+
+Wednesday-date: 2025-06-11
+
+----
+
+Wednesday-workshops: 
+
+----
+
+Uuid: 4pmKKA2GoZ9km2O3
