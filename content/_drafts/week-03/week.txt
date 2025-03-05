@@ -1,0 +1,25 @@
+Title: week-03
+
+----
+
+Week-number: 3
+
+----
+
+Monday-date: 2025-03-24
+
+----
+
+Monday-workshops: - page://n3IFTkkzmKKacPpv
+
+----
+
+Wednesday-date: 2025-03-26
+
+----
+
+Wednesday-workshops: - page://AD9B4GgvQnX8MSvM
+
+----
+
+Uuid: yinkxQqt4IYXAUWq
