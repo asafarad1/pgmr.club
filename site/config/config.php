@@ -59,6 +59,7 @@ return [
         "n2" => "נוכחות 24.12",
         "n3" => "נוכחות 25.12",
     ],
+    'panel.install' => true,
     "export.keys" => [
         "id_num" => "מספר זיהוי",
         "lname" => "שם משפחה",
