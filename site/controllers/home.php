@@ -16,6 +16,7 @@ return function ($site, $kirby) {
                         ]);
                     } catch (Exception $e) {
                     }
+                    go("/");
                 }
             }
         }
