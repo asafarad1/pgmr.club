@@ -20,19 +20,18 @@ return function ($site, $kirby) {
                     }
                     go("/");
                 }
-            }
-        } elseif ($action == "unregister") {
-            if ($workshop->participants()->toUsers()->has($kirby->user())) {
-                $participants = $workshop->participants()->toUsers()->filterBy("email", "!=", $kirby->user()->email())?->toArray() ?? [];
-                try {
-                    $updated_workshop = $workshop->update([
-                        "participants" => $participants
-                    ]);
-                } catch (Exception $e) {
-                    $alert = $e->getMessage();
+            } elseif ($action == "unregister") {
+                if ($workshop->participants()->toUsers()->has($kirby->user())) {
+                    $participants = $workshop->participants()->toUsers()->filterBy("email", "!=", $kirby->user()->email())?->toArray() ?? [];
+                    try {
+                        $updated_workshop = $workshop->update([
+                            "participants" => $participants
+                        ]);
+                    } catch (Exception $e) {
+                        $alert = $e->getMessage();
+                    }
+                    go("/");
                 }
-                $alert = dump($participants, false);
-                go("/");
             }
         }
     }
