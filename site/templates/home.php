@@ -1,6 +1,11 @@
 <?php snippet("header"); ?>
 
 <div class="workshops-header">
+
+    <div class="user">
+        <p><?= $kirby->user()->id() ?></p>
+    </div>
+
     <div class="workshops-header-label">
         <img src="<?= asset("assets/images/logo_full.svg")->url() ?>" alt="pgmr.club-logo">
     </div>

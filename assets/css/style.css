@@ -660,7 +660,7 @@ body.passed-top .link-to-top {
     padding: 10px 0;
     height: 55px;
     width: 100%;
-    transition: background-color .5s ease, color .1s ease;
+    transition: background-color .3s ease, color .1s ease;
 }
 
 .apply-button:hover {
