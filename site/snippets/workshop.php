@@ -45,7 +45,7 @@
                 <input type="hidden" name="action" value="unregister">
                 <input type="hidden" name="workshop_id" value="<?= $workshop->id() ?>">
                 <button type="submit" class="apply-button">
-                    <h2>הרשמה</h2>
+                    <h2>נרשמתי</h2>
                 </button>
             </form>
         <?php endif; ?>
