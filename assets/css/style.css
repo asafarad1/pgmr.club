@@ -684,7 +684,7 @@ body.passed-top .link-to-top {
 
 .login form {
     margin-inline-end: 40px;
-    color: var(--monday-bright-clr);
+    color: var(--white-bright-clr);
 }
 
 input[type="submit"] {
