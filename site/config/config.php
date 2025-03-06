@@ -4,35 +4,24 @@ return [
     "debug" => true,
     "tz" => "Asia/Jerusalem",
     "students.irrelevant" => [
-        "studies_status" => [ "חילופים א", "פטור" ],
+        "studies_status" => ["חילופים א", "פטור"],
     ],
     "auth" => [
         "trials" => 20,
-        "methods" => [ "password", "code" ],
+        "methods" => ["password", "code"],
         // "debug" => true
     ],
-    "email" => [
-        "transport" => [
-            "type" => "smtp",
-            "host" => "smtp.sendgrid.net",
-            "port" => "465",
-            "security" => true,
-            "auth" => true,
-            "username" => "apikey",
-            "password" => ""
-        ]
-    ],
+    "email" => [],
     "routes" => [
         [
             "pattern" => "logout",
-            "action" => function() {
+            "action" => function () {
 
-                if ( $user = kirby()->user() ) {
+                if ($user = kirby()->user()) {
                     $user->logout();
                 }
 
-                go( "login" );
-
+                go("login");
             }
         ]
     ],
@@ -49,7 +38,7 @@ return [
         "average" => "ממוצע",
         "miluim" => "מילואים",
         "studio" => "סטודיו",
-    ],    
+    ],
     "workshop.keys" => [
         "id_num" => "מספר זיהוי",
         "name" => "שם",

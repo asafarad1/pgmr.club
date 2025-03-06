@@ -698,11 +698,17 @@ body.passed-top .link-to-top {
     justify-content: center;
     align-items: center;
     border: 2px solid var(--black-clr);
+    background-color: var(--white-bright-clr);
     border-radius: 12px;
     padding: 10px 0;
     height: 55px;
     width: 100%;
-    background-color: var(--white-dark-clr);
+    transition: background-color .5s ease, color .1s ease;
+}
+
+.apply-button:hover {
+    background-color: var(--black-clr);
+    color: var(--white-bright-clr);
 }
 
 .apply-button h2 {

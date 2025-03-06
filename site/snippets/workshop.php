@@ -28,8 +28,26 @@
                 <?php endforeach ?>
             </div>
         </div>
-        <div class="apply-button">
-            <h2></h2>
-        </div>
+        <button class="apply-button">
+            <h2>הרשמה</h2>
+        </button>
     </div>
 <?php endforeach ?>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Find all apply buttons
+        const applyButtons = document.querySelectorAll('.apply-button');
+
+        // Add click event listener to each button
+        applyButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Get the parent workshop element
+                const workshopElement = this.closest('.workshop');
+
+                // Toggle the 'clicked' class on the workshop element
+                workshopElement.classList.toggle('clicked');
+            });
+        });
+    });
+</script>
