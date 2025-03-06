@@ -399,6 +399,7 @@ form select {
     .faq,
     .workshop {
         margin-inline-end: 40px;
+        width: 100%;
     }
 }
 
@@ -439,8 +440,10 @@ form select {
     --black-clr: #7D4824;
     --top-clr: #7D4824;
     --monday-clr: #0038F0;
+    --monday-mid-clr: #A3B8FF;
     --monday-bright-clr: #D1D8FA;
     --wednesday-clr: #E84CB6;
+    --wednesday-mid-clr: #FCA4D6;
     --wednesday-bright-clr: #FFCBF5;
 
     /* strokes */
@@ -571,6 +574,14 @@ body.passed-top .link-to-top {
     border-bottom: var(--border);
 }
 
+.workshops-list-monday .workshop.registered {
+    background-color: var(--monday-mid-clr);
+}
+
+.workshops-list-wednesday .workshop.registered {
+    background-color: var(--wednesday-mid-clr);
+}
+
 .workshops-list-monday .workshop-title,
 .workshops-list-monday .workshop-description,
 .workshops-list-monday .workshop-teacher,
@@ -655,7 +666,6 @@ body.passed-top .link-to-top {
     justify-content: center;
     align-items: center;
     border: 2px solid var(--black-clr);
-    background-color: var(--white-bright-clr);
     border-radius: 12px;
     padding: 10px 0;
     height: 55px;
@@ -663,7 +673,13 @@ body.passed-top .link-to-top {
     transition: background-color .3s ease, color .1s ease;
 }
 
-.apply-button:hover {
+.apply-button.register {
+    background-color: var(--white-bright-clr);
+    color: var(--black-clr);
+}
+
+.apply-button.register:hover,
+.apply-button.unregister {
     background-color: var(--black-clr);
     color: var(--white-bright-clr);
 }
@@ -674,6 +690,7 @@ body.passed-top .link-to-top {
     line-height: 1.6rem;
     font-size: 1.5rem;
 }
+
 
 /* login */
 .intro,
@@ -686,6 +703,10 @@ body.passed-top .link-to-top {
     margin-inline-end: 40px;
     color: var(--white-bright-clr);
     margin-left: 0;
+}
+
+input:focus {
+    background-color: var(--wednesday-clr);
 }
 
 input[type="submit"] {
