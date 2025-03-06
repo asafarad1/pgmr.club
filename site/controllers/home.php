@@ -19,6 +19,17 @@ return function ($site, $kirby) {
                     go("/");
                 }
             }
+        } elseif ($action == "unregister") {
+            if ($workshop->participants()->toUsers()->has($kirby->user())) {
+                $participants = $workshop->participants()->toUsers()->remove($kirby->user())->toArray();
+                try {
+                    $updated_workshop = $workshop->update([
+                        "participants" => $participants
+                    ]);
+                } catch (Exception $e) {
+                }
+                go("/");
+            }
         }
     }
 
