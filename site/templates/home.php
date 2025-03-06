@@ -3,7 +3,7 @@
 <div class="workshops-header">
 
     <div class="user">
-        <p><?= $kirby->user()->id() ?></p>
+        <p><?= $kirby->user() ?></p>
     </div>
 
     <div class="workshops-header-label">
