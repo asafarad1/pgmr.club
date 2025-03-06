@@ -21,7 +21,7 @@ return function ($site, $kirby) {
             }
         } elseif ($action == "unregister") {
             if ($workshop->participants()->toUsers()->has($kirby->user())) {
-                $participants = $workshop->participants()->toUsers()->remove($kirby->user())->toArray();
+                $participants = $workshop->participants()->toUsers()->remove($kirby->user()->id())->toArray();
                 try {
                     $updated_workshop = $workshop->update([
                         "participants" => $participants
