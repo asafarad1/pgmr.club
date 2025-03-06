@@ -9,6 +9,13 @@ return [
     "auth" => [
         "trials" => 20,
         "methods" => ["password", "code"],
+        "challenge" => [
+            "email" => [
+                'from' => 'pgmr@pgmr.club',
+                'fromName' => 'מועדון.פגמ״ר',
+                'subject' => 'קוד הכניסה שלך למועדון.פגמ״ר'
+            ]
+        ]
         // "debug" => true
     ],
     "email" => [],

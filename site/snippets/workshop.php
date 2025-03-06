@@ -28,26 +28,26 @@
                 <?php endforeach ?>
             </div>
         </div>
-        <button class="apply-button">
-            <h2>הרשמה</h2>
-        </button>
+        <?php if (!$workshop->participants()->toUsers()->has($kirby->user())) : ?>
+            <?php if ($workshop->getAvailability()) : ?>
+                <form method="post">
+                    <input type="hidden" name="action" value="register">
+                    <input type="hidden" name="workshop_id" value="<?= $workshop->id() ?>">
+                    <button type="submit" class="apply-button">
+                        <h2>הרשמה</h2>
+                    </button>
+                </form>
+            <?php else : ?>
+                No room left.
+            <?php endif; ?>
+        <?php else : ?>
+            <form method="post">
+                <input type="hidden" name="action" value="unregister">
+                <input type="hidden" name="workshop_id" value="<?= $workshop->id() ?>">
+                <button type="submit" class="apply-button">
+                    <h2>הרשמה</h2>
+                </button>
+            </form>
+        <?php endif; ?>
     </div>
 <?php endforeach ?>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Find all apply buttons
-        const applyButtons = document.querySelectorAll('.apply-button');
-
-        // Add click event listener to each button
-        applyButtons.forEach(button => {
-            button.addEventListener('click', function() {
-                // Get the parent workshop element
-                const workshopElement = this.closest('.workshop');
-
-                // Toggle the 'clicked' class on the workshop element
-                workshopElement.classList.toggle('clicked');
-            });
-        });
-    });
-</script>
