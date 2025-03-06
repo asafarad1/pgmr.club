@@ -15,6 +15,7 @@
 </div>
 
 <div class="workshops-layout">
+    <?= $alert ?>
     <?php foreach ($page->weeks()->toPages() as $week): ?>
         <div class="workshops-week">
             <div class="workshops-week-header">
