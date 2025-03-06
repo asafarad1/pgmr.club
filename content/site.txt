@@ -18,11 +18,11 @@ Feedback-email: <p>שלום {name},</p><p>אנו מקווים כי נהנית ו
 
 ----
 
-Login-redirect: - page://5BYPto3ghCVdlhBi
+Login-redirect: - page://lW10K2zpxsaWxvUi
 
 ----
 
-Login-redirect-teacher: - page://XAb0TpcAg2n0ezkS
+Login-redirect-teacher: - page://lW10K2zpxsaWxvUi
 
 ----
 
