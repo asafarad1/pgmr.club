@@ -31,6 +31,7 @@ return function ($site, $kirby) {
                 } catch (Exception $e) {
                     $alert = $e->getMessage();
                 }
+                $alert = dump($participants, false);
                 go("/");
             }
         }
