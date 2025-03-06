@@ -3,7 +3,7 @@
 return function ($site, $kirby) {
 
 
-    if ($kirby->request()->is("POST")) {
+    if ($kirby->user() && $kirby->request()->is("POST")) {
         $action = get("action");
         $workshop = page(get("workshop_id"));
         if ($action && $workshop) {
@@ -21,7 +21,7 @@ return function ($site, $kirby) {
             }
         } elseif ($action == "unregister") {
             if ($workshop->participants()->toUsers()->has($kirby->user())) {
-                $participants = $workshop->participants()->toUsers()->remove($kirby->user()->id())->toArray();
+                $participants = $workshop->participants()->toUsers()->filterBy("email", "!=", $kirby->user()->email())->toArray();
                 try {
                     $updated_workshop = $workshop->update([
                         "participants" => $participants
