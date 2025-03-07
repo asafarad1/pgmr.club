@@ -445,6 +445,9 @@ form select {
     --wednesday-clr: #E84CB6;
     --wednesday-mid-clr: #FCA4D6;
     --wednesday-bright-clr: #FFCBF5;
+    --gray-bright-clr: #E2E2E2;
+    --gray-dark-clr: #BEBEBE;
+
 
     /* strokes */
     --storke-width: 4px;
@@ -581,12 +584,21 @@ header-user {
     border-bottom: var(--border);
 }
 
+.workshop.blank {
+    background-color: var(--gray-bright-clr);
+}
+
 .workshops-list-monday .workshop.registered {
     background-color: var(--monday-mid-clr);
 }
 
 .workshops-list-wednesday .workshop.registered {
     background-color: var(--wednesday-mid-clr);
+}
+
+.workshop.blank .workshop-title {
+    color: var(--gray-dark-clr);
+    margin-bottom: 24px;
 }
 
 .workshops-list-monday .workshop-title,
@@ -631,6 +643,20 @@ header-user {
     margin-bottom: 5px;
 }
 
+.blank-rect {
+    background-color: var(--gray-dark-clr);
+    width: 100%;
+    height: 10px;
+    margin-bottom: 14px;
+}
+
+.blank-sep {
+    width: 100%;
+    margin-bottom: 14px;
+    margin-top: 14px;
+    border-bottom: 1px dashed var(--gray-dark-clr);
+}
+
 .workshop-teacher li::before {
     content: "-";
     margin-left: 10px;
@@ -641,6 +667,29 @@ header-user {
     flex-wrap: wrap;
     gap: 7px;
     row-gap: 10px;
+}
+
+.blank-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    row-gap: 10px;
+}
+
+.blank-tag-type,
+.blank-tag-Target-audience {
+    width: 59px;
+    height: 25px;
+    border-radius: 22px;
+    padding: 0 9px;
+}
+
+.blank-tag-type {
+    border: 1px solid var(--gray-dark-clr);
+}
+
+.blank-tag-Target-audience {
+    background-color: var(--gray-dark-clr);
 }
 
 .workshop-tags li {
@@ -675,9 +724,13 @@ header-user {
     border: 2px solid var(--black-clr);
     border-radius: 12px;
     padding: 10px 0;
-    height: 55px;
+    height: 50px;
     width: 100%;
     transition: background-color .3s ease, color .1s ease;
+}
+
+.blank .apply-button {
+    border: 2px solid var(--gray-dark-clr);
 }
 
 .apply-button.register {
