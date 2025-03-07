@@ -1,4 +1,4 @@
-Title: שולחנות עגולים #1
+Title: שולחנות עגולים #2
 
 ----
 
@@ -14,7 +14,7 @@ Workshop-type: <ul><li>קופ״ח</li></ul>
 
 ----
 
-Target-audience: <ul><li>כולם</li></ul>
+Target-audience: 
 
 ----
 
@@ -46,7 +46,7 @@ Requirements:
 
 ----
 
-Rooms: <p>קפיטריה</p>
+Rooms: 
 
 ----
 
@@ -58,4 +58,4 @@ End-time: 20:30:00
 
 ----
 
-Uuid: kyPuHbY4MVSdWKL8
+Uuid: KEqLK7TAsN8aPz2L

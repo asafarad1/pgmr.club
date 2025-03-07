@@ -67,6 +67,17 @@ Kirby::plugin( "retreat/helpers", [
         },
         "totalUnassigned" => function() {
             return $this->getUnassignedStudents()->count();
+        },
+        'getProjectStatuses' => function () {
+            $statuses = option("retreat.project_statuses", []);
+            $res = [];
+            foreach ($statuses as $status) {
+                $res[] = [
+                    "text" => "$status",
+                    "value" => $status
+                ];
+            }
+            return $res;
         }
     ],
     "userModels" => [

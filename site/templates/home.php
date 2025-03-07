@@ -37,6 +37,24 @@
     <?php endforeach ?>
 </div>
 
+<div class="credit-container">
+    <div class="credit-user">
+        <?php if ($kirby->user()) : ?>
+            <span>שלום </span>
+            <span><?= $kirby->user()->fname() ?> <?= $kirby->user()->lname() ?></span>
+        <?php endif; ?>
+    </div>
+    <div class="credits">
+        <p>מועדון.פג״מר ⚑ איל, אסף ויובל</p>
+        <p>ימי שני ורביעי 17:30 — 20:30</p>
+    </div>
+    <div class="credits">
+        <p>עיצוב אתר: ענבל שמש</p>
+        <p>תמיכה טכנית: מאיר סדן</p>
+        <p>פונטים באדיבות <a href="https://hagilda.com/" target="_blank">הגילדה</a></p>
+    </div>
+</div>
+
 <a href="#" class="link-to-top">
     <img src="<?= asset("assets/images/logo_small.svg")->url() ?>" alt="pgmr.club-logo">
 </a>

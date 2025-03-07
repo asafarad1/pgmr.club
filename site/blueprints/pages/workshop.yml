@@ -44,6 +44,15 @@ tabs:
                 label: Message workshop leaders
                 command: message-teachers
                 width: 1/2
+              project_status:
+                label: סטטוס
+                type: select
+                placeholder: "normal"
+                options:
+                  type: query
+                  query: site.getProjectStatuses
+                  text: "{{ item.text }}"
+                  value: "{{ item.value }}"
       column2:
         width: 1/2
         sections:

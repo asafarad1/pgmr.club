@@ -2,6 +2,10 @@ Title: גם אני עשיתי פגמ״ר #2
 
 ----
 
+Project-status: normal
+
+----
+
 Teacher: <ul><li>אמיתי גלעד</li><li>מיכל סהר</li><li>נעם שכטר</li></ul>
 
 ----

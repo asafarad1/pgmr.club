@@ -18,7 +18,7 @@ Wednesday-date: 2025-03-19
 
 ----
 
-Wednesday-workshops: - page://kyPuHbY4MVSdWKL8
+Wednesday-workshops: - page://KEqLK7TAsN8aPz2L
 
 ----
 

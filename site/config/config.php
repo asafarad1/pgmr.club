@@ -3,6 +3,9 @@
 return [
     "debug" => true,
     "tz" => "Asia/Jerusalem",
+    "retreat.project_statuses" => [
+        "normal", "vacation", "presentation"
+    ],
     "students.irrelevant" => [
         "studies_status" => ["חילופים א", "פטור"],
     ],
