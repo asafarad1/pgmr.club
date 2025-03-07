@@ -2,8 +2,8 @@
 
 <div class="workshops-header">
 
-    <div class="user">
-        <p><?= $kirby->user() ?></p>
+    <div class="header-user">
+        <p>שלום <?= $kirby->user()->fname() ?> הנכבד</p>
     </div>
 
     <div class="workshops-header-label">

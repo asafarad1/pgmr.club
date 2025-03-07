@@ -487,6 +487,13 @@ body.passed-top .link-to-top {
     z-index: var(--layer-1);
 }
 
+header-user {
+    position: absolute;
+    z-index: var(--layer-0);
+    font-size: 1rem;
+    color: yellow;
+}
+
 .workshops-header-label {
     display: flex;
     background-color: var(--top-clr);
