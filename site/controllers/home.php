@@ -2,8 +2,6 @@
 
 return function ($site, $kirby) {
 
-    $alert = "";
-
 
     if ($kirby->user() && $kirby->request()->is("POST")) {
         $action = get("action");
@@ -28,7 +26,6 @@ return function ($site, $kirby) {
                             "participants" => $participants
                         ]);
                     } catch (Exception $e) {
-                        $alert = $e->getMessage();
                     }
                     go("/");
                 }

@@ -2,10 +2,6 @@
 
 <div class="workshops-header">
 
-    <div class="header-user">
-        <p>שלום <?= $kirby->user()->fname() ?> הנכבד</p>
-    </div>
-
     <div class="workshops-header-label">
         <img src="<?= asset("assets/images/logo_full.svg")->url() ?>" alt="pgmr.club-logo">
     </div>
