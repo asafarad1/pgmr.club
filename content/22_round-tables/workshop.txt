@@ -2,7 +2,7 @@ Title: שולחנות עגולים #1
 
 ----
 
-Project-status: normal
+Emoji: 🎱
 
 ----
 
@@ -27,6 +27,10 @@ About: <p>שיחות אישות סביב שאלת המחקר של הפרוייק
 ----
 
 Participants: - user://W2rUwPFi
+
+----
+
+Project-status: normal
 
 ----
 

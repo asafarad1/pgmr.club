@@ -444,6 +444,31 @@ body.passed-top .link-to-top {
     height: 20px;
 }
 
+.credit-user {
+    top: 11px;
+    right: 15px;
+    display: block;
+    margin-inline-start: auto;
+    z-index: var(--layer-0);
+    color: var(--gray-bright-clr);
+}
+
+.workshops-header .credit-user {
+    position: absolute;
+}
+
+.credit-container .credit-user {
+    position: fixed;
+    transform: translateY(-150%);
+    visibility: hidden;
+    transition: transform 0.3s ease, visibility 0.3s ease;
+}
+
+body.passed-top .credit-user {
+    transform: translateY(0);
+    visibility: visible;
+}
+
 .workshops-header {
     display: flex;
     flex-direction: column;
@@ -734,6 +759,10 @@ body.passed-top .link-to-top {
     color: var(--white-bright-clr);
 }
 
+.apply-button.nouser {
+    background-color: var(--white-dark-clr);
+}
+
 .apply-button h2 {
     font-family: "SimplerAlte", sans-serif;
     font-weight: 700;
@@ -754,8 +783,7 @@ body.passed-top .link-to-top {
 
 .credit-container a {
     text-decoration: underline;
-    text-decoration-color: var(--wednesday-clr);
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 /* login */

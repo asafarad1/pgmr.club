@@ -33,7 +33,7 @@
                             <?php endforeach ?>
                         </div>
                     </div>
-                    <?php if (!$workshop->participants()->toUsers()->has($kirby->user())) : ?>
+                    <?php if (!$workshop->participants()->toUsers()->has($kirby->user()) && ($kirby->user())) : ?>
                         <?php if ($workshop->getAvailability()) : ?>
                             <form method="post">
                                 <input type="hidden" name="action" value="register">
@@ -45,14 +45,18 @@
                         <?php else : ?>
                             No room left.
                         <?php endif; ?>
-                    <?php else : ?>
+                    <?php elseif ($kirby->user()) : ?>
                         <form method="post">
                             <input type="hidden" name="action" value="unregister">
                             <input type="hidden" name="workshop_id" value="<?= $workshop->id() ?>">
                             <button type="submit" class="apply-button unregister">
-                                <h2>נרשמתי &#128527;</h2>
+                                <h2>נרשמתי &nbsp;<?= $workshop->emoji() ?></h2>
                             </button>
                         </form>
+                    <?php else : ?>
+                        <button type="submit" class="apply-button nouser">
+                                <h2></h2>
+                        </button>
                     <?php endif; ?>
                     </div>
                 <?php elseif ($workshop->project_status() == "vacation") : ?>

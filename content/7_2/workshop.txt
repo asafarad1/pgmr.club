@@ -2,7 +2,7 @@ Title: גם אני עשיתי פגמ״ר #2
 
 ----
 
-Project-status: normal
+Emoji: 😎
 
 ----
 
@@ -26,7 +26,11 @@ About: <p>מרצי המחלקה מספרים על פרויקט הגמר שלהם
 
 ----
 
-Participants: 
+Participants: - user://W2rUwPFi
+
+----
+
+Project-status: normal
 
 ----
 

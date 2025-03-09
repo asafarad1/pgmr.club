@@ -9,6 +9,10 @@ tabs:
           column1:
             type: fields
             fields:
+              emoji:
+                label: Emoji
+                type: text
+                maxlength: 1  
               teacher:
                 label: Name of teacher(s)
                 type: list
