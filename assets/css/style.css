@@ -453,7 +453,7 @@ body.passed-top .link-to-top {
     color: var(--gray-bright-clr);
 }
 
-.workshops-header .credit-user {
+.credit-user.credit-user-top {
     position: absolute;
 }
 

@@ -1,12 +1,15 @@
 <?php snippet("header"); ?>
 
-<div class="workshops-header">
-    <div class="credit-user">
+<div class="credit-user credit-user-top">
         <?php if ($kirby->user()) : ?>
             <span>שלום,</span>
             <span><?= $kirby->user()->fname() ?> <?= $kirby->user()->lname() ?></span>
+        <?php else : ?>
+            <span>לא מחובר.ת</span>
         <?php endif; ?>
-    </div>
+</div>
+
+<div class="workshops-header">
     <div class="workshops-header-label">
         <img src="<?= asset("assets/images/logo_full.svg")->url() ?>" alt="pgmr.club-logo">
     </div>
@@ -47,6 +50,8 @@
         <?php if ($kirby->user()) : ?>
             <span>שלום,</span>
             <span><?= $kirby->user()->fname() ?> <?= $kirby->user()->lname() ?></span>
+        <?php else : ?>
+            <span>לא מחובר.ת</span>
         <?php endif; ?>
     </div>
     <div class="credits">
