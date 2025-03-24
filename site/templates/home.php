@@ -6,6 +6,7 @@
             <span><?= $kirby->user()->fname() ?> <?= $kirby->user()->lname() ?></span>
         <?php else : ?>
             <span>לא מחובר.ת</span>
+            <a href="/login">לכניסה</a>
         <?php endif; ?>
 </div>
 
@@ -52,6 +53,7 @@
             <span><?= $kirby->user()->fname() ?> <?= $kirby->user()->lname() ?></span>
         <?php else : ?>
             <span>לא מחובר.ת</span>
+            <a href="/login">לכניסה</a>
         <?php endif; ?>
     </div>
     <div class="credits">
