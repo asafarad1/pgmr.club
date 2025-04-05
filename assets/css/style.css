@@ -564,6 +564,7 @@ body.passed-top .credit-user {
     min-height: 400px;
     width: 100%;
     padding: 19px 19px;
+    gap: 20px;
     background-color: var(--white-bright-clr);
     border-bottom: var(--border);
 }
