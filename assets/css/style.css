@@ -584,6 +584,12 @@ body.passed-top .credit-user {
     color: var(--gray-bright-clr);
 }
 
+.workshops-list-monday,
+.workshops-list-wednesday {
+    display: flex;
+    flex-direction: column;
+}
+
 .workshops-list-monday .workshop.presentation {
     background-color: var(--monday-clr);
 }
