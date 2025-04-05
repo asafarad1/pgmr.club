@@ -43,7 +43,11 @@
                                 </button>
                             </form>
                         <?php else : ?>
-                            No room left.
+                            <form method="post">
+                                <button type="submit" class="apply-button no-room-left">
+                                    <h2>נגמר המקום</h2>
+                                </button>
+                            </form>
                         <?php endif; ?>
                     <?php elseif ($kirby->user()) : ?>
                         <form method="post">

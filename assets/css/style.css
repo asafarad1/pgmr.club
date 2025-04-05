@@ -762,6 +762,12 @@ body.passed-top .credit-user {
     border: 2px solid var(--gray-dark-clr);
 }
 
+.apply-button.no-room-left {
+    background-color: var(--gray-dark-clr);
+    color: var(--white-bright-clr);
+    border: none;
+}
+
 .apply-button.register {
     background-color: var(--white-bright-clr);
     color: var(--black-clr);
