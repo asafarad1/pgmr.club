@@ -541,6 +541,10 @@ body.passed-top .credit-user {
     grid-template-columns: 1fr 1fr;
 }
 
+.workshops-week-lists p {
+    line-height: 20px;
+}
+
 .workshops-layout::after {
     content: "";
     position: fixed;
@@ -647,12 +651,16 @@ body.passed-top .credit-user {
     border-bottom: 1px dashed var(--wednesday-bright-clr);
 }
 
+.workshop-description {
+    margin-top: 10px;
+}
+
 .workshop.vacation h2,
 .workshop.presentation h2,
 .workshop-title h2 {
     font-family: "SimplerAlte", sans-serif;
     font-weight: 700;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
     font-size: 1.5rem;
     margin-bottom: 5px;
 }

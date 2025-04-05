@@ -11,7 +11,7 @@
                             <h2><?= $workshop->title() ?></h2>
                         </div>
                         <div class="workshop-description">
-                            <h2><?= $workshop->about() ?></h2>
+                            <?= $workshop->about() ?>
                         </div>
                         <?php foreach ($workshop->teacher()->split() as $teacher): ?>
                             <div class="workshop-teacher"><?= $teacher ?></div>
