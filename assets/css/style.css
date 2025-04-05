@@ -556,7 +556,7 @@ body.passed-top .credit-user {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: auto;
+    height: 100%;
     min-height: 400px;
     width: 100%;
     padding: 19px 19px;
