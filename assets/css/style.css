@@ -764,8 +764,12 @@ body.passed-top .credit-user {
 
 .apply-button.no-room-left {
     background-color: var(--gray-dark-clr);
-    color: var(--white-bright-clr);
     border: none;
+}
+
+.apply-button.no-room-left>h2,
+.workshop.passed .apply-button.no-room-left>h2 {
+    color: var(--white-bright-clr);
 }
 
 .apply-button.register {
@@ -867,7 +871,6 @@ input[type="tel"] {
 
 .workshop.passed {
     position: relative;
-    overflow: hidden;
     background-color: var(--gray-bright-clr);
 }
 
