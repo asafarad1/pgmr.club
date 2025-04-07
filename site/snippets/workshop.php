@@ -34,7 +34,13 @@
                         </div>
                     </div>
                     <?php if (!$workshop->participants()->toUsers()->has($kirby->user()) && ($kirby->user())) : ?>
-                        <?php if ($workshop->getAvailability()) : ?>
+                        <?php if ($workshop->passed()) : ?>
+                            <form method="post">
+                                <div class="apply-button no-room-left">
+                                    <h2></h2>
+                                </div>
+                            </form>
+                        <?php elseif ($workshop->getAvailability()) : ?>
                             <form method="post">
                                 <input type="hidden" name="action" value="register">
                                 <input type="hidden" name="workshop_id" value="<?= $workshop->id() ?>">
@@ -44,9 +50,9 @@
                             </form>
                         <?php else : ?>
                             <form method="post">
-                                <button type="submit" class="apply-button no-room-left">
+                                <div type="submit" class="apply-button no-room-left">
                                     <h2>נגמר המקום</h2>
-                                </button>
+                                </div>
                             </form>
                         <?php endif; ?>
                     <?php elseif ($kirby->user()) : ?>
@@ -59,7 +65,7 @@
                         </form>
                     <?php else : ?>
                         <button type="submit" class="apply-button nouser">
-                                <h2></h2>
+                            <h2></h2>
                         </button>
                     <?php endif; ?>
                     </div>

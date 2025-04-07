@@ -18,7 +18,7 @@ Target-audience:
 
 ----
 
-Limit: 
+Limit: 3
 
 ----
 
@@ -26,7 +26,11 @@ About: <p>שיחות אישות סביב שאלת המחקר של הפרוייק
 
 ----
 
-Participants: - user://W2rUwPFi
+Participants:
+
+- user://VpOd4ii0
+- user://wT509QR9
+- user://uwkNCBWR
 
 ----
 

@@ -864,3 +864,47 @@ input[type="tel"] {
     display: block;
     width: 100%;
 }
+
+.workshop.passed {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--gray-bright-clr);
+}
+
+.workshop.passed h2,
+.workshop.passed P,
+.workshop.passed li,
+.workshop.passed span {
+    color: var(--gray-dark-clr);
+}
+
+.workshop.passed .workshop-description,
+.workshop.passed .workshop-teacher,
+.workshop.passed .workshop-time,
+.workshop.passed .workshop-tags {
+    border-bottom: 1px dashed var(--gray-dark-clr);
+}
+
+.workshop.passed .workshop-type li {
+    border: 1px solid var(--gray-dark-clr);
+}
+
+.workshop.passed .workshop-Target-audience li {
+    color: var(--gray-bright-clr);
+    background-color: var(--gray-dark-clr);
+}
+
+.workshop.passed::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom left,
+            transparent calc(50% - 1px),
+            var(--black-clr, var(--black-clr)) calc(50% - 4px),
+            var(--black-clr, var(--black-clr)) calc(50% + 4px),
+            transparent calc(50% + 1px));
+    pointer-events: none;
+}
