@@ -2,6 +2,7 @@
 <?= js("assets/js/countdown.min.js") ?>
 <?= js("assets/js/retreat.js?v=" . filemtime($kirby->root() . "/assets/js/retreat.js")) ?>
 <?= js("assets/js/passed.js?v=" . filemtime($kirby->root() . "/assets/js/passed.js")) ?>
+<?= js("assets/js/scroll-to-current-week.js?v=" . filemtime($kirby->root() . "/assets/js/scroll-to-current-week.js")) ?>
 
 </body>
 
