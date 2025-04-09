@@ -38,7 +38,7 @@ $(function() {
     });
     
     // Sort weeks by date
-    weeks.sort((a, b) => a.mondayDate - b.mondayDate);
+    weeks.sort((a, b) => a.wednesdayDate - b.wednesdayDate);
     
     // Find the first week that starts now or in the future,
     // or the last past week if all weeks are in the past
@@ -49,7 +49,7 @@ $(function() {
       // Set time to start of day for comparison
       const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
       
-      if (week.mondayDate >= startOfToday) {
+      if (week.wednesdayDate >= startOfToday) {
         targetWeek = week;
         break;
       }
