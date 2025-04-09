@@ -496,6 +496,7 @@ body.passed-top .credit-user {
     font-size: 1rem;
     color: var(--white-bright-clr);
     height: 40px;
+    border-bottom: var(--border);
 }
 
 .workshops-header-days .workshops-header-day {
