@@ -667,6 +667,12 @@ body.passed-top .credit-user {
     margin-bottom: 5px;
 }
 
+.workshop a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
 .workshop.vacation,
 .workshop.presentation {
     padding-inline: 30px;
