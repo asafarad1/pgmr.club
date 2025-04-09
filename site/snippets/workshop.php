@@ -33,6 +33,7 @@
                             <?php endforeach ?>
                         </div>
                     </div>
+                    <span class="workshop-emoji" data-emoji="<?= $workshop->emoji() ?>" style="display: none;"></span>
                     <?php if (!$workshop->participants()->toUsers()->has($kirby->user()) && ($kirby->user())) : ?>
                         <?php if ($workshop->getAvailability()) : ?>
                             <form method="post">

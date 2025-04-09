@@ -566,6 +566,7 @@ body.passed-top .credit-user {
     gap: 20px;
     background-color: var(--white-bright-clr);
     border-bottom: var(--border);
+    transition: background-color 0.3s ease;
 }
 
 .workshop.blank {
@@ -767,8 +768,7 @@ body.passed-top .credit-user {
     border: none;
 }
 
-.apply-button.no-room-left>h2,
-.workshop.passed .apply-button.no-room-left>h2 {
+.apply-button.no-room-left>h2 {
     color: var(--white-bright-clr);
 }
 
@@ -871,30 +871,30 @@ input[type="tel"] {
 
 .workshop.passed {
     position: relative;
-    background-color: var(--gray-bright-clr);
+    background-color: var(--white-dark-clr);
 }
 
 .workshop.passed h2,
 .workshop.passed P,
 .workshop.passed li,
 .workshop.passed span {
-    color: var(--gray-dark-clr);
+    color: var(--black-clr);
 }
 
 .workshop.passed .workshop-description,
 .workshop.passed .workshop-teacher,
 .workshop.passed .workshop-time,
 .workshop.passed .workshop-tags {
-    border-bottom: 1px dashed var(--gray-dark-clr);
+    border-bottom: 1px dashed var(--black-clr);
 }
 
 .workshop.passed .workshop-type li {
-    border: 1px solid var(--gray-dark-clr);
+    border: 1px solid var(--black-clr);
 }
 
 .workshop.passed .workshop-Target-audience li {
-    color: var(--gray-bright-clr);
-    background-color: var(--gray-dark-clr);
+    color: var(--black-clr);
+    background-color: var(--white-bright-clr);
 }
 
 .workshop.passed::after {
@@ -910,4 +910,26 @@ input[type="tel"] {
             var(--black-clr, var(--black-clr)) calc(50% + 4px),
             transparent calc(50% + 1px));
     pointer-events: none;
+}
+
+.presentation.passed h2 {
+    color: var(--white-bright-clr);
+}
+
+.workshops-list-monday>.registered.passed,
+.workshops-list-wednesday>.registered.passed {
+    background-color: var(--white-dark-clr);
+}
+
+.workshops-list-monday>.passed .apply-button,
+.workshops-list-wednesday>.passed .apply-button {
+    pointer-events: none;
+    background-color: var(--white-dark-clr);
+    border: 2px solid var(--black-clr);
+    border-radius: 12px;
+}
+
+.workshops-list-monday>.passed .apply-button h2,
+.workshops-list-wednesday>.passed .apply-button h2 {
+    color: transparent;
 }
